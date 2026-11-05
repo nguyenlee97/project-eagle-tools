@@ -1,70 +1,34 @@
 # Project Eagle Tools
 
-> **GTA San Andreas Modding Infrastructure** | Project Eagle
+> GTA San Andreas × Genshin Impact | Infrastructure & Tooling
 
-Collection of tools and utilities developed for Project Eagle — a GTA San Andreas total conversion featuring Genshin Impact characters, custom radio, and enhanced world-building.
+## Repositories
 
-## Tools Overview
+| Repo | Description | Jira |
+|------|-------------|------|
+| [eagle-story-quest](https://github.com/nguyenlee97/eagle-story-quest) | VN Story Quest engine + Hu Tao / Citlali / Furina campaigns | SCRUM-170,174,178 |
+| [eagle-waifulink](https://github.com/nguyenlee97/eagle-waifulink) | Dating sim, BGM v1.1, JP Voice, 6 heroines | SCRUM-141,160,173 |
+| [eagle-market](https://github.com/nguyenlee97/eagle-market) | Wall Street, Trading, Eagle Times, EagleStake Casino | SCRUM-166-169 |
+| [eagle-phone-os](https://github.com/nguyenlee97/eagle-phone-os) | EaglePhone OS v6.3, EagleRide v2.0, App UIs | SCRUM-161,162,176 |
+| [eagle-debug-toolkit](https://github.com/nguyenlee97/eagle-debug-toolkit) | Savegame sync, Mondstadt bridge, diagnostics | SCRUM-177 |
+| [project-eagle-tools](https://github.com/nguyenlee97/project-eagle-tools) | Coord lock, character chat (14 NPCs), CI scripts | SCRUM-146,163 |
+| [eagle-map-glitch-lab](https://github.com/nguyenlee97/eagle-map-glitch-lab) | 3D map walker & boundary explorer | SCRUM-151 |
 
-| Tool | Path | Purpose | Jira |
-|------|------|---------|------|
-| [eagle_coord_lock.py](README-eagle-coord-lock.md) | `eagle_coord_lock.py` | Multi-agent coordination lock (game-write + ingame-runtime) | SCRUM-146 |
-| [Eagle Radio Studio](eagle-radio-studio/README.md) | `eagle-radio-studio/` | Menu music & playlist management, deploy to gameplay-lab | SCRUM-147 |
-| [Conversation Tracker](conversation-tracker/README.md) | `conversation-tracker/` | Confluence auto-push & conversation analysis | SCRUM-148 |
-| [Skin Viewer](skin-viewer/README.md) | `skin-viewer/` | DFF/TXD deploy & skin catalog management | SCRUM-149 |
-| [World Texture Studio](world-texture-studio/README.md) | `world-texture-studio/` | 3D texture catalog & deploy to gameplay-lab | SCRUM-150 |
-| [Map Glitch Lab](map-glitch-lab/README.md) | `map-glitch-lab/` | 3D map walker & glitch/boundary exploration | SCRUM-151 |
-| [Eagle Character Chat](eagle-character-chat/README.md) | `eagle-character-chat/` | Genshin character dialogue engine for WaifuLink | SCRUM-152 |
-| [Eagle Dialogue](eagle-dialogue/README.md) | `eagle-dialogue/` | CLEO bridge & Visual Novel HUD deploy | SCRUM-153 |
-| [OpenCode2API](opencode2api/README.md) | `opencode2api/` | LLM provider bridge (gpt-6-luna & others) | SCRUM-154 |
+## Multi-Agent Lock
 
-## Quick Start
-
-```powershell
-# Clone the repository
-git clone https://github.com/nguyenlee97/project-eagle-tools.git
-cd project-eagle-tools
-
-# Check multi-agent lock status before any writes
-python eagle_coord_lock.py status
-
-# Start Eagle Radio Studio
-python eagle-radio-studio/app.py
-
-# Start World Texture Studio
-python world-texture-studio/app.py
-```
-
-## Multi-Agent Coordination
-
-All tools that write to gameplay-lab **must** use the coordination lock:
+All tools writing to gameplay-lab must use `eagle_coord_lock.py`:
 
 ```python
 from eagle_coord_lock import EagleCoordLock
 
-with EagleCoordLock("game-write", chat=CHAT_ID, task="my-task", resources=["file.txd"]):
-    # Safe to write here
+with EagleCoordLock("game-write", chat=CHAT_ID, task="deploy", resources=["file.txd"]):
+    # Safe to write to gameplay-lab
     ...
 ```
 
-See [README-eagle-coord-lock.md](README-eagle-coord-lock.md) for full documentation.
-
 ## Game Target
+`C:\Users\LENOVO\Desktop\GTA\Project Eagle\gta sa gameplay-lab`
 
-All tools deploy to:
-```
-C:\Users\LENOVO\Desktop\GTA\Project Eagle\gta sa gameplay-lab\
-```
-
-Do **not** use the archive at `D:\GTA Archive\Project Eagle\gta sa clean\` as a mod target.
-
-## Documentation
-
-- [Project Eagle Docs](https://nguyennguyenle997.atlassian.net/wiki/spaces/EAGLE)
-- [Shared Agent Workflow](../docs/project-eagle/shared-agent-workflow.md)
-- [Jira Board](https://nguyennguyenle997.atlassian.net/jira/software/projects/SCRUM/boards)
-
-## Project
-
-**Project Eagle** — GTA San Andreas × Genshin Impact  
-Maintained by: nguyenlee97 | Agents: Antigravity (Gemini), Codex
+## Docs
+- [Confluence Space EAGLE](https://nguyennguyenle997.atlassian.net/wiki/spaces/EAGLE)
+- [Jira Board SCRUM](https://nguyennguyenle997.atlassian.net/jira/software/projects/SCRUM/boards)
