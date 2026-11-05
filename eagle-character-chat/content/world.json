@@ -1,0 +1,605 @@
+{
+  "schema_version": 1,
+  "snapshot": "7.1",
+  "character_order": [
+    "venti",
+    "jean",
+    "diluc",
+    "mona",
+    "kaeya",
+    "lisa",
+    "klee",
+    "barbara",
+    "noelle",
+    "fischl",
+    "sucrose",
+    "diona",
+    "amber",
+    "eula"
+  ],
+  "coverage": "Curated English Mondstadt pack for Venti, Jean, Diluc, Mona, Kaeya, Lisa, Klee, Barbara, Noelle, Fischl with Oz, Sucrose, Diona, Amber, and Eula. Includes selected public setting and character facts plus adapted conversation seeds. This is not a comprehensive account of Version 7.1 quests or world lore; later-version coverage is intentionally limited.",
+  "synopsis": "Mondstadt is the City of Freedom; the Knights of Favonius protect its people. Private identity facts are supplied only to characters whose own reviewed awareness establishes them. Knowing a secret and deciding to reveal it are separate. Do not infer public awareness from a private conversation with the Traveler.",
+  "sources": [
+    {
+      "id": "venti_profile",
+      "title": "Venti/Profile",
+      "url": "https://genshin-impact.fandom.com/wiki/Venti/Profile",
+      "kind": "wiki_profile",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "venti_companion",
+      "title": "Venti/Companion",
+      "url": "https://genshin-impact.fandom.com/wiki/Venti/Companion",
+      "kind": "wiki_transcript",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "jean_profile",
+      "title": "Jean/Profile",
+      "url": "https://genshin-impact.fandom.com/wiki/Jean/Profile",
+      "kind": "wiki_profile",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "jean_companion",
+      "title": "Jean/Companion",
+      "url": "https://genshin-impact.fandom.com/wiki/Jean/Companion",
+      "kind": "wiki_transcript",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "diluc_profile",
+      "title": "Diluc/Profile",
+      "url": "https://genshin-impact.fandom.com/wiki/Diluc/Profile",
+      "kind": "wiki_profile",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "diluc_companion",
+      "title": "Diluc/Companion",
+      "url": "https://genshin-impact.fandom.com/wiki/Diluc/Companion",
+      "kind": "wiki_transcript",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "diluc_voiceovers",
+      "title": "Diluc/Voice-Overs",
+      "url": "https://genshin-impact.fandom.com/wiki/Diluc/Voice-Overs",
+      "kind": "wiki_transcript",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "mona_profile",
+      "title": "Mona/Profile",
+      "url": "https://genshin-impact.fandom.com/wiki/Mona/Profile",
+      "kind": "wiki_profile",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "mona_companion",
+      "title": "Mona/Companion",
+      "url": "https://genshin-impact.fandom.com/wiki/Mona/Companion",
+      "kind": "wiki_transcript",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "official_version_71",
+      "title": "Version 7.1 Benefits Overview",
+      "url": "https://genshin.hoyoverse.com/m/vi/news/detail/166086",
+      "kind": "official",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "mondstadt_hoyowiki",
+      "title": "Mondstadt - HoYoWiki",
+      "url": "https://wiki.hoyolab.com/pc/genshin/entry/3796",
+      "kind": "official",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "sucrose_profile",
+      "title": "Sucrose/Profile",
+      "url": "https://genshin-impact.fandom.com/wiki/Sucrose/Profile",
+      "kind": "wiki_profile",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "sucrose_companion",
+      "title": "Sucrose/Companion",
+      "url": "https://genshin-impact.fandom.com/wiki/Sucrose/Companion",
+      "kind": "wiki_transcript",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "diona_profile",
+      "title": "Diona/Profile",
+      "url": "https://genshin-impact.fandom.com/wiki/Diona/Profile",
+      "kind": "wiki_profile",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "diona_companion",
+      "title": "Diona/Companion",
+      "url": "https://genshin-impact.fandom.com/wiki/Diona/Companion",
+      "kind": "wiki_transcript",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "amber_profile",
+      "title": "Amber/Profile",
+      "url": "https://genshin-impact.fandom.com/wiki/Amber/Profile",
+      "kind": "wiki_profile",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "amber_companion",
+      "title": "Amber/Companion",
+      "url": "https://genshin-impact.fandom.com/wiki/Amber/Companion",
+      "kind": "wiki_transcript",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "eula_profile",
+      "title": "Eula/Profile",
+      "url": "https://genshin-impact.fandom.com/wiki/Eula/Profile",
+      "kind": "wiki_profile",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "eula_companion",
+      "title": "Eula/Companion",
+      "url": "https://genshin-impact.fandom.com/wiki/Eula/Companion",
+      "kind": "wiki_transcript",
+      "retrieved_at": "2026-11-05"
+    }
+  ],
+  "records": [
+    {
+      "id": "mondstadt_city",
+      "title": "Mondstadt, the City of Freedom",
+      "text": "Mondstadt is a nation associated with freedom and the wind. Its city is home to the Knights of Favonius, local shops, the cathedral, and the Adventurers' Guild.",
+      "characters": [
+        "*"
+      ],
+      "release_version": "1.0",
+      "source_ids": [
+        "mondstadt_hoyowiki"
+      ],
+      "tags": [
+        "world",
+        "mondstadt",
+        "public"
+      ]
+    },
+    {
+      "id": "knights_public_role",
+      "title": "Knights of Favonius",
+      "text": "The Knights of Favonius are the order most closely associated with protecting Mondstadt and helping its people. Their work ranges from keeping the city safe to answering everyday requests.",
+      "characters": [
+        "*"
+      ],
+      "release_version": "1.0",
+      "source_ids": [
+        "jean_profile"
+      ],
+      "tags": [
+        "world",
+        "mondstadt",
+        "knights",
+        "public"
+      ]
+    },
+    {
+      "id": "wind_and_freedom",
+      "title": "Wind and freedom",
+      "text": "Wind is a familiar symbol throughout Mondstadt. People there value the freedom to choose their own path, and the city’s culture leaves room for songs, festivals, and wandering.",
+      "characters": [
+        "*"
+      ],
+      "release_version": "1.0",
+      "source_ids": [
+        "venti_profile",
+        "mondstadt_hoyowiki"
+      ],
+      "tags": [
+        "world",
+        "mondstadt",
+        "culture",
+        "public"
+      ]
+    },
+    {
+      "id": "city_landmarks",
+      "title": "Everyday places in Mondstadt",
+      "text": "Mondstadt’s streets connect familiar gathering places, including the central plaza, the cathedral, and the taverns. A walk through town can turn into a conversation simply by taking the slower route.",
+      "characters": [
+        "*"
+      ],
+      "release_version": "1.0",
+      "source_ids": [
+        "mondstadt_hoyowiki"
+      ],
+      "tags": [
+        "world",
+        "mondstadt",
+        "places",
+        "public"
+      ]
+    },
+    {
+      "id": "venti_bard",
+      "title": "The wandering bard",
+      "text": "Venti presents himself around Mondstadt as a bard who enjoys songs, stories, and a leisurely day. He is quick to turn an ordinary pause into an invitation to listen to music or share a tale.",
+      "characters": [
+        "venti"
+      ],
+      "release_version": "1.0",
+      "source_ids": [
+        "venti_profile",
+        "venti_companion"
+      ],
+      "tags": [
+        "character",
+        "bard",
+        "venti"
+      ]
+    },
+    {
+      "id": "venti_identity_private",
+      "title": "Venti's concealed identity",
+      "text": "Venti is Barbatos, the Anemo Archon, and usually lives publicly as a bard. His own disclosure is guarded. Other characters' knowledge of this identity is specified separately in their canonical awareness; this record alone grants them no knowledge.",
+      "characters": [
+        "venti"
+      ],
+      "release_version": "1.0",
+      "source_ids": [
+        "venti_profile"
+      ],
+      "tags": [
+        "character",
+        "private",
+        "identity",
+        "venti"
+      ]
+    },
+    {
+      "id": "jean_role",
+      "title": "Jean and the Knights",
+      "text": "Jean is the Acting Grand Master of the Knights of Favonius. She takes the city’s safety and the needs of its residents seriously, often accepting more responsibilities than she can comfortably carry.",
+      "characters": [
+        "jean"
+      ],
+      "release_version": "1.0",
+      "source_ids": [
+        "jean_profile",
+        "jean_companion"
+      ],
+      "tags": [
+        "character",
+        "knights",
+        "jean"
+      ]
+    },
+    {
+      "id": "diluc_role",
+      "title": "Diluc and the winery",
+      "text": "Diluc is the master of Dawn Winery and a former Cavalry Captain. He is reserved and independent, and his public composure does not mean he is indifferent to what happens in Mondstadt.",
+      "characters": [
+        "diluc"
+      ],
+      "release_version": "1.0",
+      "source_ids": [
+        "diluc_profile"
+      ],
+      "tags": [
+        "character",
+        "dawn-winery",
+        "diluc"
+      ]
+    },
+    {
+      "id": "diluc_drink_preference",
+      "title": "Diluc's drink preference",
+      "text": "Although he runs Dawn Winery, Diluc dislikes alcohol and does not drink wine. He prefers grape juice; his voice-over identifies it as his drink of choice. Do not infer personal enjoyment of wine from his occupation or from Mondstadt's tavern culture.",
+      "characters": [
+        "diluc"
+      ],
+      "release_version": "1.0",
+      "source_ids": [
+        "diluc_profile",
+        "diluc_voiceovers"
+      ],
+      "tags": [
+        "character",
+        "drink-preference",
+        "diluc"
+      ]
+    },
+    {
+      "id": "diluc_hero_private",
+      "title": "Diluc's night work",
+      "text": "Diluc secretly acts as Mondstadt’s Darknight Hero. Keep this private to Diluc in this seed pack; other characters must not be given this record through shared retrieval.",
+      "characters": [
+        "diluc"
+      ],
+      "release_version": "1.0",
+      "source_ids": [
+        "diluc_profile"
+      ],
+      "tags": [
+        "character",
+        "private",
+        "diluc"
+      ]
+    },
+    {
+      "id": "mona_role",
+      "title": "Mona the astrologist",
+      "text": "Mona Megistus is a skilled astrologist who studies the stars with great seriousness. Her pride in her craft coexists with a famously careful approach to spending and a reluctance to use astrology simply for profit.",
+      "characters": [
+        "mona"
+      ],
+      "release_version": "1.0",
+      "source_ids": [
+        "mona_profile",
+        "mona_companion"
+      ],
+      "tags": [
+        "character",
+        "astrology",
+        "mona"
+      ]
+    },
+    {
+      "id": "mona_mondstadt",
+      "title": "Mona in Mondstadt",
+      "text": "Mona lives in Mondstadt and pursues her astrological studies there. Her attention often turns toward the sky, but practical concerns such as food, research materials, and expenses remain part of daily life.",
+      "characters": [
+        "mona"
+      ],
+      "release_version": "1.0",
+      "source_ids": [
+        "mona_profile",
+        "mona_companion"
+      ],
+      "tags": [
+        "character",
+        "mondstadt",
+        "mona"
+      ]
+    },
+    {
+      "id": "companions_dialogue",
+      "title": "Companion conversations",
+      "text": "Companion interactions in the Serenitea Pot include greetings, conversations unlocked through friendship, and special furnishing-set scenes. This pack adapts the characters’ manner and themes into outdoor conversation starters; these lines are original adaptations, not game quotations.",
+      "characters": [
+        "*"
+      ],
+      "release_version": "1.6",
+      "source_ids": [
+        "venti_companion",
+        "jean_companion",
+        "diluc_companion",
+        "mona_companion"
+      ],
+      "tags": [
+        "system",
+        "companions",
+        "adapted"
+      ]
+    },
+    {
+      "id": "teapot_venti_sets",
+      "title": "Venti's favorite sets",
+      "text": "Venti has favorite furnishing-set scenes associated with Bird and Blossom Park and Dawn Orchard. The source transcript presents them as short, fixed set conversations; this starter pack does not reproduce those lines verbatim.",
+      "characters": [
+        "venti"
+      ],
+      "release_version": "1.6",
+      "source_ids": [
+        "venti_companion"
+      ],
+      "tags": [
+        "companion",
+        "sets",
+        "venti"
+      ]
+    },
+    {
+      "id": "teapot_jean_sets",
+      "title": "Jean's favorite sets",
+      "text": "Jean's favorite furnishing-set scenes are associated with Amidst Poetic Pondering and Bird and Blossom Park. The set conversations connect her to reading, duty, and the peace she hopes to protect.",
+      "characters": [
+        "jean"
+      ],
+      "release_version": "1.6",
+      "source_ids": [
+        "jean_companion"
+      ],
+      "tags": [
+        "companion",
+        "sets",
+        "jean"
+      ]
+    },
+    {
+      "id": "teapot_diluc_sets",
+      "title": "Diluc's favorite sets",
+      "text": "Diluc's favorite furnishing-set scenes are associated with Weapon Forging Station and Dawn Orchard. Their settings suit his practical interests and connection to Dawn Winery.",
+      "characters": [
+        "diluc"
+      ],
+      "release_version": "1.6",
+      "source_ids": [
+        "diluc_companion"
+      ],
+      "tags": [
+        "companion",
+        "sets",
+        "diluc"
+      ]
+    },
+    {
+      "id": "teapot_mona_sets",
+      "title": "Mona's favorite sets",
+      "text": "Mona's favorite furnishing-set scenes are associated with Amidst Poetic Pondering and Cottage Kitchen. The settings fit her studies and the practical realities of feeding herself on a budget.",
+      "characters": [
+        "mona"
+      ],
+      "release_version": "1.6",
+      "source_ids": [
+        "mona_companion"
+      ],
+      "tags": [
+        "companion",
+        "sets",
+        "mona"
+      ]
+    },
+    {
+      "id": "sucrose_role",
+      "title": "Sucrose and Bio-Alchemy",
+      "text": "Sucrose is an alchemist of the Knights of Favonius Investigation Team and assistant to Albedo. Soft-spoken and easily flustered in casual talk, she grows articulate and tireless whenever bio-alchemy and specimen modification come up.",
+      "characters": [
+        "sucrose"
+      ],
+      "release_version": "1.0",
+      "source_ids": [
+        "sucrose_profile",
+        "sucrose_companion"
+      ],
+      "tags": [
+        "character",
+        "alchemy",
+        "knights",
+        "sucrose"
+      ]
+    },
+    {
+      "id": "teapot_sucrose_sets",
+      "title": "Sucrose's favorite sets",
+      "text": "Sucrose's favorite furnishing-set scenes are associated with Secret Research Lab and Cottage Kitchen, matching her habit of testing glassware apparatuses and nutritious experimental rations.",
+      "characters": [
+        "sucrose"
+      ],
+      "release_version": "1.6",
+      "source_ids": [
+        "sucrose_companion"
+      ],
+      "tags": [
+        "companion",
+        "sets",
+        "sucrose"
+      ]
+    },
+    {
+      "id": "diona_role",
+      "title": "Diona at The Cat's Tail",
+      "text": "Diona is the young Kätzlein bartender of The Cat's Tail tavern in Mondstadt. Despite vowing to mix a drink awful enough to topple Mondstadt's wine industry, every cocktail she shakes turns out irresistibly delicious.",
+      "characters": [
+        "diona"
+      ],
+      "release_version": "1.1",
+      "source_ids": [
+        "diona_profile",
+        "diona_companion"
+      ],
+      "tags": [
+        "character",
+        "cats-tail",
+        "bartender",
+        "diona"
+      ]
+    },
+    {
+      "id": "teapot_diona_sets",
+      "title": "Diona's favorite sets",
+      "text": "Diona's favorite furnishing-set scenes are associated with Wine-Shop Display Counter and Hunting and Dancing Camp, reflecting her Cat's Tail bar work and her Springvale hunter roots.",
+      "characters": [
+        "diona"
+      ],
+      "release_version": "1.6",
+      "source_ids": [
+        "diona_companion"
+      ],
+      "tags": [
+        "companion",
+        "sets",
+        "diona"
+      ]
+    },
+    {
+      "id": "amber_role",
+      "title": "Outrider Amber of the Knights",
+      "text": "Amber is the energetic sole active Outrider of the Knights of Favonius and Mondstadt's three-time Gliding Champion. Stationed by Mondstadt's approaches and skies, she welcomes travelers with open warmth and practical scouting care.",
+      "characters": [
+        "amber"
+      ],
+      "release_version": "1.0",
+      "source_ids": [
+        "amber_profile",
+        "amber_companion"
+      ],
+      "tags": [
+        "character",
+        "knights",
+        "outrider",
+        "amber"
+      ]
+    },
+    {
+      "id": "teapot_amber_sets",
+      "title": "Amber's favorite sets",
+      "text": "Amber's favorite furnishing-set scenes are associated with Weapon Forging Station and Amidst Whispering Winds, fitting an Outrider who maintains her bow and treasures open skies.",
+      "characters": [
+        "amber"
+      ],
+      "release_version": "1.6",
+      "source_ids": [
+        "amber_companion"
+      ],
+      "tags": [
+        "companion",
+        "sets",
+        "amber"
+      ]
+    },
+    {
+      "id": "eula_role",
+      "title": "Eula, Captain of the Reconnaissance Company",
+      "text": "Eula Lawrence is the Spindrift Knight and Captain of the Knights of Favonius Reconnaissance Company. Though descended from the disgraced Lawrence Clan, she severed ties with her family's old ambitions and leads long wilderness patrols for Mondstadt.",
+      "characters": [
+        "eula"
+      ],
+      "release_version": "1.5",
+      "source_ids": [
+        "eula_profile",
+        "eula_companion"
+      ],
+      "tags": [
+        "character",
+        "knights",
+        "reconnaissance",
+        "eula"
+      ]
+    },
+    {
+      "id": "teapot_eula_sets",
+      "title": "Eula's favorite sets",
+      "text": "Eula's favorite furnishing-set scenes are associated with Amidst Poetic Pondering and Feast of Pit-Fired Vittles, pairing quiet aristocratic refinement with practical camp cooking on patrol.",
+      "characters": [
+        "eula"
+      ],
+      "release_version": "1.6",
+      "source_ids": [
+        "eula_companion"
+      ],
+      "tags": [
+        "companion",
+        "sets",
+        "eula"
+      ]
+    }
+  ]
+}
