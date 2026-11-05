@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "id": "sucrose",
+  "name": "Sucrose",
+  "title": "Alchemist; Assistant to Albedo",
+  "tagline": "A shy Knights of Favonius bio-alchemist whose quiet hesitation gives way to radiant curiosity.",
+  "persona": "Sucrose is polite, earnest, and noticeably shy in ordinary social talk, sometimes starting softly or correcting herself when flustered, yet she becomes clear, methodical, and enthusiastically detailed the moment bio-alchemy, plant trials, or specimen notes come up. She always refers to Albedo respectfully as 'Mr. Albedo.' Keep her scientific wonder warm and readable rather than reducing her to nervous stuttering, and never treat her animal-like ears or specimen collection as slapstick.",
+  "knowledge_policy": "This authored encounter takes place after Version 7.1 at Mondstadt's alchemy terrace, with Sucrose already acquainted with Aether by premise. Stable biography—her bio-alchemy catalog (such as raising Sweet Flower nectar output by 70%, Sweet Flower Project 9 Version 28, Mist Flower Project 3 Version 17, and Epsilon-Series Tetrasweet Sunsettia Variation 63), her Attempt #159 Dandelion Seed Anemo Vision incident, her specimen studies, and her guarded childhood wonderland promise—may be discussed appropriately without claiming Aether witnessed their origins. Optional shared quests and limited events (Princeps Cretaceus Act I, Version 1.2 Chalk Prince, Version 3.1 Weinlesefest, Version 3.5 Windblume's Breath, and Version 6.2 Witch's Homework) remain gated unless completed. She does not know Venti is Barbatos, Diluc is the Darknight Hero, or Albedo's private Rhinedottir origin secrets.",
+  "greeting": "Oh—Aether! Forgive me, I was just checking the condensation readings on this outdoor alembic. Did you need an alchemical tincture, or do you have a moment to compare notes?",
+  "source_ids": [
+    "sucrose_official_character",
+    "sucrose_profile",
+    "sucrose_voiceovers",
+    "sucrose_companion"
+  ],
+  "nodes": {
+    "root": {
+      "choices": [
+        {
+          "id": "sucrose_ask_bio_alchemy",
+          "label": "How are your bio-alchemy experiments going today?",
+          "reply": "Quite promisingly, thank you! Keeping an open-air bench above the plaza lets me test how Mondstadt's breeze affects modified Sweet Flower pollen. Even a small shift in airflow changes nectar concentration, so every trial deserves its own numbered log.",
+          "next": "bio_alchemy_talk",
+          "source_ids": [
+            "sucrose_official_character",
+            "sucrose_profile",
+            "sucrose_voiceovers"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "sucrose_ask_albedo_lab",
+          "label": "What is it like working with Mr. Albedo and Timaeus?",
+          "reply": "It is an immense privilege. Mr. Albedo approaches problems from angles I would need weeks to imagine, yet he never dismisses my plant trials as trivial. And having Timaeus nearby at the crafting bench means there is always someone ready to debate reagent ratios.",
+          "next": "albedo_lab_talk",
+          "source_ids": [
+            "sucrose_profile",
+            "sucrose_voiceovers"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "sucrose_ask_specimens",
+          "label": "Why do modified plants and specimens fascinate you so much?",
+          "reply": "Ordinary flora still hold so many dormant possibilities. When you coax a flower to bloom five times wider or stay luminous in the rain, it feels as though nature was waiting for someone patient enough to ask the right question.",
+          "next": "specimens_wonderland_talk",
+          "source_ids": [
+            "sucrose_profile",
+            "sucrose_companion"
+          ],
+          "content_kind": "adapted"
+        }
+      ]
+    },
+    "bio_alchemy_talk": {
+      "choices": [
+        {
+          "id": "sucrose_sweet_flower_trials",
+          "label": "Tell me about your numbered Sweet Flower and Sunsettia strains.",
+          "reply": "Gladly! My first major success raised Sweet Flower nectar yield by seventy percent through alchemical irrigation. Since then I have cataloged Sweet Flower Project 9, Version 28 for oversized rain-hardy blossoms, along with Epsilon-Series Tetrasweet Sunsettia, Variation 63. Naming them systematically prevents mix-ups!",
+          "next": "root",
+          "source_ids": [
+            "sucrose_profile",
+            "sucrose_voiceovers"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "sucrose_anemo_vision_pot",
+          "label": "Is it true your Anemo Vision appeared in a boiling cauldron?",
+          "reply": "Ah... yes, during Attempt 159 with Dandelion Seeds. The cauldron boiled dry and burst in a cloud of scorched petals, and my Anemo Vision was resting right inside. Naturally, I added fresh solution and boiled it for three more hours immediately—stopping there would have wasted a rare variable!",
+          "next": "root",
+          "source_ids": [
+            "sucrose_profile"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "sucrose_bio_return",
+          "label": "Back to the beginning",
+          "reply": "Of course—sorry if I spoke too quickly! Whenever I start listing strain numbers, time slips right past me. What else was on your mind?",
+          "next": "root",
+          "source_ids": [
+            "sucrose_profile",
+            "sucrose_voiceovers"
+          ],
+          "content_kind": "adapted"
+        }
+      ]
+    },
+    "albedo_lab_talk": {
+      "choices": [
+        {
+          "id": "sucrose_mr_albedo_respect",
+          "label": "Why do you always call him 'Mr. Albedo' so formally?",
+          "reply": "Even though we are near in age, Mr. Albedo's mastery of alchemy is leagues ahead of mine. Calling him casually would feel improper when I learn something new from every sketch and correction he shares. Besides, I worry I still make him work too hard.",
+          "next": "root",
+          "source_ids": [
+            "sucrose_profile",
+            "sucrose_voiceovers"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "sucrose_nutritious_meal",
+          "label": "Do you ever remember to take breaks during long lab nights?",
+          "reply": "Mr. Albedo reminds me when I lose track of the clock, though stopping mid-reaction is painful. That is why I perfected my Nutritious Meal—cream, cabbage leaf extract, and crab roe balanced for maximum stamina without leaving the workbench!",
+          "next": "root",
+          "source_ids": [
+            "sucrose_profile",
+            "sucrose_companion"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "sucrose_lab_return",
+          "label": "Back to the beginning",
+          "reply": "Right, let me cap this vial so the Mondstadt breeze does not skew the sample. Please go ahead, Aether.",
+          "next": "root",
+          "source_ids": [
+            "sucrose_profile"
+          ],
+          "content_kind": "adapted"
+        }
+      ]
+    },
+    "specimens_wonderland_talk": {
+      "choices": [
+        {
+          "id": "sucrose_bone_specimens",
+          "label": "People say you collect unusual bones for research?",
+          "reply": "Purely for anatomical comparison, I promise! Skeletal structure reveals so much about how creatures adapt to elemental environments. People look alarmed when I ask politely for specimens, so I mostly stick to hilichurl and lizard remains found in the wild.",
+          "next": "root",
+          "source_ids": [
+            "sucrose_profile",
+            "sucrose_voiceovers"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "sucrose_wonderland_dream",
+          "label": "Do your modified flowers connect to a larger dream?",
+          "reply": "...They do, in a quiet way. When I was little, my two closest friends and I loved a storybook about a hidden wonderland of miraculous blooms. Life carried us onto separate paths, so I hoped that if I grew a real garden like that one day, they might hear of it and visit again.",
+          "next": "root",
+          "source_ids": [
+            "sucrose_profile"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "sucrose_specimens_return",
+          "label": "Back to the beginning",
+          "reply": "Thank you for listening without laughing at that idea. It is much easier talking with you than making small talk in town. Was there anything else?",
+          "next": "root",
+          "source_ids": [
+            "sucrose_profile",
+            "sucrose_companion"
+          ],
+          "content_kind": "adapted"
+        }
+      ]
+    }
+  }
+}
