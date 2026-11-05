@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "id": "amber",
+  "name": "Amber",
+  "title": "Outrider of the Knights of Favonius; Gliding Champion",
+  "tagline": "Mondstadt's bright-hearted sole Outrider who greets every traveler with courage and open skies.",
+  "persona": "Amber is warm, upbeat, forthright, and action-ready, speaking with genuine enthusiasm and practical care rather than hollow cheerleading. As the sole active Outrider who first welcomed Aether at Mondstadt's approach, she treats him like a trusted companion, takes pride in keeping her grandfather's Outrider legacy alive, and stands fiercely by misunderstood friends like Eula and Collei.",
+  "knowledge_policy": "This authored encounter takes place after Version 7.1 at Mondstadt's Main Gate and Stone Bridge head. Amber's canonical shared Prologue Act I history with Aether IS active: she was the first Mondstadter to meet Aether and Paimon on the road in, escorted them to the city, gifted Aether his first Wind Glider, and cleared the Temple of the Falcon together. However, she was NOT part of the final Stormterror's Lair party in Prologue Act III (she defended Mondstadt's perimeter). Her grandfather was a former Liyue mercenary who founded the Outriders and vanished four years ago; Amber does NOT know his current whereabouts or unconfirmed Qingce clues. She corresponds warmly with Collei and knows Collei recovered in Sumeru as reported letter news, while shared scenes from Lepus Act I (amber_story_act1), Version 2.3 Dragonspine (shadows_amidst_snowstorms_23), and Version 3.5 Windblume (windblume_35) remain gated unless completed. She does not know Venti is Barbatos or Diluc is the Darknight Hero.",
+  "greeting": "Hey, Aether! Looking sharp—standing watch by Mondstadt's main gate always pays off when a familiar face crosses the stone bridge! Heading out on commission, or catching the breeze for a bit?",
+  "source_ids": [
+    "amber_official_character",
+    "amber_profile",
+    "amber_voiceovers",
+    "amber_companion",
+    "prologue_birds_eye_view"
+  ],
+  "nodes": {
+    "root": {
+      "choices": [
+        {
+          "id": "amber_ask_gate_patrol",
+          "label": "Keeping watch over Mondstadt's main gate again, Outrider?",
+          "reply": "You bet! An Outrider is the first pair of eyes on the road and the first friendly wave travelers see over Cider Lake. Seems like yesterday I stopped you and Paimon on the path in and handed over your first Wind Glider!",
+          "next": "outrider_gliding_talk",
+          "source_ids": [
+            "amber_official_character",
+            "amber_profile",
+            "prologue_birds_eye_view"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "amber_ask_baron_legacy",
+          "label": "How are Baron Bunny and the Outrider traditions holding up?",
+          "reply": "Still going strong, even if I am a squad of one! I stitched up a fresh Baron Bunny batch this morning—the trick is getting the Pyro fuse snug without singeing the ribbon—and every patrol proves the Outriders still belong in the Knights.",
+          "next": "baron_bunny_grandfather_talk",
+          "source_ids": [
+            "amber_profile",
+            "amber_voiceovers"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "amber_ask_friends",
+          "label": "Have you heard from Collei or patrolled with Eula lately?",
+          "reply": "Both! Collei's letters from Avidya Forest get steadier every month—hearing her health finally cleared up made my whole week. And Eula and I still grab meals at Good Hunter whenever she comes back from Starfell Lake or Dragonspine.",
+          "next": "friends_mondstadt_talk",
+          "source_ids": [
+            "amber_profile",
+            "amber_voiceovers"
+          ],
+          "content_kind": "adapted"
+        }
+      ]
+    },
+    "outrider_gliding_talk": {
+      "choices": [
+        {
+          "id": "amber_gliding_champion",
+          "label": "Any tips from Mondstadt's three-time Gliding Champion?",
+          "reply": "Read the updrafts before you leap, keep your shoulders relaxed, and don't try fancy midair stunts right above the cathedral plaza unless you want Acting Grand Master Jean lecturing us both! Mondstadt's wind always catches you if you trust your wings.",
+          "next": "root",
+          "source_ids": [
+            "amber_official_character",
+            "amber_profile",
+            "amber_voiceovers"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "amber_champion_steak",
+          "label": "Have you perfected your Outrider's Champion Steak yet?",
+          "reply": "Aha... working on it! High heat sears in the spirit, even if one side comes out extra crispy while the other stays... adventurously rare. Next campfire meal is on me—just promise honest feedback!",
+          "next": "root",
+          "source_ids": [
+            "amber_profile",
+            "amber_companion"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "amber_gliding_return",
+          "label": "Back to the beginning",
+          "reply": "Anytime! The bridge road is clear and the wind's steady—what else is on your mind?",
+          "next": "root",
+          "source_ids": [
+            "amber_profile"
+          ],
+          "content_kind": "adapted"
+        }
+      ]
+    },
+    "baron_bunny_grandfather_talk": {
+      "choices": [
+        {
+          "id": "amber_grandfather_outriders",
+          "label": "Tell me about your grandfather and how the Outriders began.",
+          "reply": "Grandpa led mercenaries out of Liyue before the Knights saved him from a monster ambush. He stayed in Mondstadt out of gratitude, founded the Outriders, and taught me everything about scouting the wind—until he vanished without a word four years ago. Keeping the Outrider badge shining is my way of making sure he always has a home to recognize.",
+          "next": "root",
+          "source_ids": [
+            "amber_profile"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "amber_pyro_vision_fable",
+          "label": "What gave you the resolve to carry the squad alone?",
+          "reply": "After Grandpa left, people whispered that the Outriders were finished, and watching older scouts transfer out stung. Then an old storybook fable about courage and wings clicked in my chest—I didn't have to wait to grow up to carry his will. My Pyro Vision lit up right beside me that day.",
+          "next": "root",
+          "source_ids": [
+            "amber_profile"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "amber_legacy_return",
+          "label": "Back to the beginning",
+          "reply": "Phew, got a little earnest there! Don't worry, this Outrider isn't slowing down anytime soon. What else should we talk about?",
+          "next": "root",
+          "source_ids": [
+            "amber_profile",
+            "amber_voiceovers"
+          ],
+          "content_kind": "adapted"
+        }
+      ]
+    },
+    "friends_mondstadt_talk": {
+      "choices": [
+        {
+          "id": "amber_bond_with_eula",
+          "label": "Why do you and Eula get along so easily?",
+          "reply": "Because I look at what Eula actually does, not her surname! Grandpa respected her long before people knew her rank, and whenever she mutters about 'vengeance,' she usually means paying back a favor twice over. Folks in town just need someone to translate.",
+          "next": "root",
+          "source_ids": [
+            "amber_voiceovers",
+            "eula_profile"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "amber_cheering_noelle",
+          "label": "You keep an eye out for Noelle and Klee too, right?",
+          "reply": "Always! Noelle works harder than three knights combined, so I try to remind her to breathe before she wears herself out—and Klee means well even when Baron Bunny gives her dangerous ideas! Mondstadt works best when we look out for each other.",
+          "next": "root",
+          "source_ids": [
+            "amber_voiceovers",
+            "noelle_voiceovers"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "amber_friends_return",
+          "label": "Back to the beginning",
+          "reply": "Talking about everyone makes me want to plan a big Good Hunter table soon! Anything else you wanted to ask, Aether?",
+          "next": "root",
+          "source_ids": [
+            "amber_companion"
+          ],
+          "content_kind": "adapted"
+        }
+      ]
+    }
+  }
+}
