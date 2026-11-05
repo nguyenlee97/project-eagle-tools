@@ -1,0 +1,2165 @@
+{
+  "schema_version": 1,
+  "profile": {
+    "id": "post_71",
+    "snapshot": "7.1",
+    "traveler": "Aether / the Traveler",
+    "description": "Conversation setting after the Version 7.1 main story. The Traveler is already known to the selected cast. This authored story snapshot is available to conversation; it does not imply that every resident has heard every event.",
+    "completed_story": [
+      "Mondstadt Prologue and the Dvalin crisis",
+      "Main Archon Quest through Version 7.1, including the Snezhnaya confrontation with Ronova"
+    ],
+    "completed_optional": [
+      "venti_story_quest",
+      "summer_58",
+      "mona_story_quest"
+    ]
+  },
+  "sources": [
+    {
+      "id": "before_sun_moon",
+      "title": "Before Sun and Moon (in-game book transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Before_Sun_and_Moon",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "neuvillette_profile",
+      "title": "Neuvillette/Profile (in-game profile transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Neuvillette/Profile",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "sumeru_archon_quest",
+      "title": "Akasha Pulses, the Kalpa Flame Rises (quest transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Akasha_Pulses,_the_Kalpa_Flame_Rises",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "inversion_genesis",
+      "title": "Inversion of Genesis (quest transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Inversion_of_Genesis",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "fontaine_finale",
+      "title": "Finale (quest transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Finale",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "venti_storyline",
+      "title": "Venti/Storyline (community summary with in-game citations)",
+      "url": "https://genshin-impact.fandom.com/wiki/Venti/Storyline",
+      "kind": "community_summary",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "venti_58_event",
+      "title": "A Curtain Call for a Colorful Summer Night! (5.8 event transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/A_Curtain_Call_for_a_Colorful_Summer_Night%21",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "diluc_storyline",
+      "title": "Diluc/Storyline (community summary with in-game citations)",
+      "url": "https://genshin-impact.fandom.com/wiki/Diluc/Storyline",
+      "kind": "community_summary",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "mona_story_quest",
+      "title": "Beyond This World's Stars (Story Quest summary)",
+      "url": "https://genshin-impact.fandom.com/wiki/Beyond_This_World%27s_Stars",
+      "kind": "community_summary",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "official_mondstadt_chars",
+      "title": "Official Mondstadt character descriptions",
+      "url": "https://genshin.hoyoverse.com/en/character/mondstadt?char=11&lang=en",
+      "kind": "official",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "official_bequest",
+      "title": "Cutscene Animation: Bequest",
+      "url": "https://genshin.hoyoverse.com/m/en/news/detail/166643",
+      "kind": "official_promotional_cutscene_text",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "official_gods_limits",
+      "title": "The Gods' Limits (official teaser)",
+      "url": "https://www.youtube.com/watch?v=jvXVmvW8ZQw",
+      "kind": "official_teaser",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "official_71_press",
+      "title": "Version 7.1 press release (HoYoverse press copy syndicated by Games Press)",
+      "url": "https://www.gamespress.com/zh-CN/Genshin-Impact-Version-71-Launches-September-23-as-Forces-Gather-in-Sn",
+      "kind": "official_press_release_syndication",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "official_inazuma_chars",
+      "title": "Official Inazuma character descriptions",
+      "url": "https://genshin.hoyoverse.com/en/character/inazuma?char=19",
+      "kind": "official",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "official_sumeru_chars",
+      "title": "Official Sumeru character descriptions",
+      "url": "https://genshin.hoyoverse.com/en/character/sumeru?char=0",
+      "kind": "official",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "official_liyue_chars",
+      "title": "Official Liyue character descriptions",
+      "url": "https://genshin.hoyoverse.com/en/character/liyue?char=19",
+      "kind": "official",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "official_mavuika",
+      "title": "Official Mavuika character introduction",
+      "url": "https://genshin.hoyoverse.com/fr/news/detail/127626",
+      "kind": "official",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "venti_story_quest",
+      "title": "Should You Be Trapped in a Windless Land (Carmen Dei Story Quest)",
+      "url": "https://genshin-impact.fandom.com/wiki/Should_You_Be_Trapped_in_a_Windless_Land_%28Quest%29",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "zhongli_storyline",
+      "title": "Zhongli/Storyline (community summary with in-game citations)",
+      "url": "https://genshin-impact.fandom.com/wiki/Zhongli/Storyline",
+      "kind": "community_summary",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "official_71_patch",
+      "title": "Version 7.1 update details (Turkish localization)",
+      "url": "https://genshin.hoyoverse.com/tr/news/detail/166383",
+      "kind": "official_release_notes",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "ronova_walkthrough",
+      "title": "Version 7.1 Ronova final battle and aftermath (secondary walkthrough)",
+      "url": "https://allthings.how/genshin-impact-7-1-pierro-vs-ronova-final-battle-cutscene-explained/",
+      "kind": "secondary_event_summary",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "abyss_order_story",
+      "title": "When All Is Foretold (quest dialogue database)",
+      "url": "https://wiki.hoyolab.com/m/genshin/entry/9000?lang=en-us",
+      "kind": "official_wiki_dialogue_database",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "ronova_profile_review",
+      "title": "Ronova - cited community storyline summary",
+      "url": "https://genshin-impact.fandom.com/wiki/Ronova",
+      "kind": "community_summary",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "asmoday_localization_reference",
+      "title": "Asmoday / Ruler of Space - Genshin Dictionary",
+      "url": "https://genshin-dictionary.com/en/asmoday",
+      "kind": "community_localization_reference",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "asmoday_71_summary",
+      "title": "Version 7.1 palace scene - Asmoday title recap",
+      "url": "https://allthings.how/genshin-impact-7-1-story-asmoday-s-new-master-and-the-third-descender/",
+      "kind": "secondary_event_summary",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "dvalin_long_shot",
+      "title": "A Long Shot - Prologue Act III game dialogue",
+      "url": "https://genshin-impact.fandom.com/wiki/A_Long_Shot",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "diluc_profile_transcript",
+      "title": "Diluc/Profile (community transcript of in-game character stories)",
+      "url": "https://genshin-impact.fandom.com/wiki/Diluc/Profile",
+      "kind": "wiki_transcript",
+      "retrieved_at": "2026-10-24",
+      "evidence_note": "Community-hosted transcript of character stories; supports Crepus, Eroch, resignation, travel, Fatui investigation and return. Specific disputed final moments intentionally left unresolved."
+    },
+    {
+      "id": "kaeya_profile_transcript",
+      "title": "Kaeya/Profile (community transcript of in-game character stories)",
+      "url": "https://genshin-impact.fandom.com/wiki/Kaeya/Profile",
+      "kind": "wiki_transcript",
+      "retrieved_at": "2026-10-24",
+      "evidence_note": "Supports Crepus taking Kaeya in and the brothers’ strained post-confession relationship; community-hosted game text."
+    },
+    {
+      "id": "hidden_strife_transcript",
+      "title": "Hidden Strife (community transcript of in-game letters)",
+      "url": "https://genshin-impact.fandom.com/wiki/Hidden_Strife/Story",
+      "kind": "wiki_transcript",
+      "retrieved_at": "2026-10-24",
+      "evidence_note": "Supports later correspondence and guarded coordination between Diluc and Kaeya, plus contact with Jean; community-hosted event transcript."
+    },
+    {
+      "id": "diluc_voiceover_transcript",
+      "title": "Diluc/Voice-Overs (community transcript of in-game lines)",
+      "url": "https://genshin-impact.fandom.com/wiki/Diluc/Voice-Overs",
+      "kind": "wiki_transcript",
+      "retrieved_at": "2026-10-24",
+      "evidence_note": "Supports Diluc’s individual assessment of Jean and guarded view of Kaeya; community-hosted game text."
+    },
+    {
+      "id": "mona_official_profile",
+      "title": "Mona - HoYoWiki character entry",
+      "url": "https://wiki.hoyolab.com/pc/genshin/entry/37/?crawler=Googlebot&lang=",
+      "kind": "official",
+      "retrieved_at": "2026-10-24",
+      "evidence_note": "Official character profile and indexed character text; supports Mona’s astrologist identity, self-assurance and astrology themes."
+    },
+    {
+      "id": "mona_steambird_profile",
+      "title": "Court of Fontaine Region - HoYoWiki (Mona and The Steambird)",
+      "url": "https://wiki.hoyolab.com/pc/genshin/entry/5142?lang=en-us",
+      "kind": "official",
+      "retrieved_at": "2026-10-24",
+      "evidence_note": "Official HoYoWiki text says Mona writes the All Things Astrological column for The Steambird, it became a stable income source, and research purchases keep her finances tight."
+    },
+    {
+      "id": "barbeloth_name_reference",
+      "title": "Story Teaser: The Mages’ Tea Party",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/105519",
+      "kind": "official",
+      "retrieved_at": "2026-10-24",
+      "evidence_note": "Official teaser page; associated official video description identifies Barbeloth of the Hexenzirkel, codename B. Mona’s mentor/teacher relationship is also established in official character/quest material."
+    },
+    {
+      "id": "venti_ending_note_transcript",
+      "title": "Ending Note (Venti post-crisis dialogue transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Ending_Note",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "jean_reunion_transcript",
+      "title": "Reunion With the Dragon (Archon Quest dialogue transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Reunion_With_the_Dragon",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "jean_profile_transcript",
+      "title": "Jean/Profile (character stories and profile text)",
+      "url": "https://genshin-impact.fandom.com/wiki/Jean/Profile",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "jean_hoyowiki",
+      "title": "Jean — HoYoWiki profile and character stories",
+      "url": "https://wiki.hoyolab.com/pc/genshin/entry/27?lang=en",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "jean_masters_day_off",
+      "title": "Master's Day Off (Jean Story Quest dialogue transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Master%27s_Day_Off_(Quest)",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "jean_voiceovers",
+      "title": "Jean/Voice-Overs (character dialogue transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Jean/Voice-Overs",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "varka_storyline",
+      "title": "Varka/Storyline (community summary with in-game citations)",
+      "url": "https://genshin-impact.fandom.com/wiki/Varka/Storyline",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "dvalin_profile_transcript",
+      "title": "Dvalin (story chronology and public-knowledge notes)",
+      "url": "https://genshin-impact.fandom.com/wiki/Dvalin",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "natlan_53_finale_transcript",
+      "title": "When All Becomes a Monument (Archon Quest dialogue transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/When_All_Becomes_a_Monument",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "official_53_announcement",
+      "title": "Genshin Impact Version 5.3: Stand with Mavuika to Fight for Natlan's Fate",
+      "url": "https://www.hoyoverse.com/en-us/news/127758",
+      "kind": "official_release_announcement",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "mona_bewildering_dialogue",
+      "title": "A Bewildering Fate (English game dialogue transcript)",
+      "url": "https://www.hoyodex.com/wiki/genshin-impact/a-bewildering-fate",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-25"
+    },
+    {
+      "id": "kaeya_voiceovers_transcript",
+      "title": "Kaeya/Voice-Overs (community transcript of in-game lines)",
+      "url": "https://genshin-impact.fandom.com/wiki/Kaeya/Voice-Overs",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Search-indexed transcript of Kaeya's in-game voice lines; used for Cavalry Knight persona, casual voice and tavern references. Direct page retrieval was blocked during this pass."
+    },
+    {
+      "id": "caribert_transcript",
+      "title": "Caribert (Chapter III, Act VI; in-game quest transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Caribert",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Search-indexed quest transcript summary includes Kaeya's Sumeru conversation with the Traveler and Dainsleif's statement about the Alberich ancestors. Kaeya's exact descent and allegiance remain unspecified. Direct page retrieval was blocked."
+    },
+    {
+      "id": "of_ballads_brews_transcript",
+      "title": "Of Ballads and Brews (Act II: Bonds of Melody; in-game event transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Of_Ballads_and_Brews/Story",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "In-game event transcript reference for Kaeya discussing his father, Crepus and Diluc. Search snippet corroborates the event page; direct retrieval was blocked."
+    },
+    {
+      "id": "crash_course_transcript",
+      "title": "Crash Course (Prologue, Act I; in-game quest transcript)",
+      "url": "https://www.hoyodex.com/wiki/genshin-impact/crash-course",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "HoYoDex in-game quest transcript/search result identifies the Temple of the Wolf, with Kaeya accompanying the Traveler in the Prologue training quest. Not the Temple of the Falcon (Amber's quest)."
+    },
+    {
+      "id": "kaeya_story_quest_transcript",
+      "title": "Secret Pirate Treasure (Pavo Ocellus Chapter: Act I; in-game quest transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Secret_Pirate_Treasure",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Search result identifies the optional Kaeya Story Quest. Exact scenes are gated on explicit completion; the pirate-grandfather framing is not treated as verified biography."
+    },
+    {
+      "id": "lisa_hoyowiki",
+      "title": "Lisa — official HoYoWiki character entry",
+      "url": "https://wiki.hoyolab.com/pc/genshin/entry/2?lang=en-us",
+      "kind": "official_game_character_page",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Official page discovered and search extract inspected; full page body was not available to the browser."
+    },
+    {
+      "id": "lisa_official_mondstadt",
+      "title": "Official Mondstadt character descriptions (Lisa section)",
+      "url": "https://genshin.hoyoverse.com/en/character/mondstadt?char=11&lang=en",
+      "kind": "official_game_character_page",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Official page discovered and search extract inspected; full page body was not available to the browser."
+    },
+    {
+      "id": "lisa_profile_transcript",
+      "title": "Lisa/Profile (in-game character stories and profile transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Lisa/Profile",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Search-indexed transcript passages were accessible; direct page body retrieval failed with HTTP 402, so this is not treated as a fully inspected page."
+    },
+    {
+      "id": "lisa_voiceover_transcript",
+      "title": "Lisa/Voice-Overs (in-game character dialogue transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Lisa/Voice-Overs",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Search-indexed transcript passages were accessible; direct page body retrieval failed with HTTP 402, so this is not treated as a fully inspected page."
+    },
+    {
+      "id": "lisa_prologue_transcript",
+      "title": "Sparks Amongst the Pages (Prologue Act I game dialogue transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Sparks_Amongst_the_Pages",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Search-indexed transcript passages were accessible; direct page body retrieval failed with HTTP 402, so this is not treated as a fully inspected page."
+    },
+    {
+      "id": "lisa_troublesome_work_transcript",
+      "title": "Troublesome Work (Lisa Story Quest dialogue transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Troublesome_Work_(Quest)",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Search-indexed transcript passages were accessible; direct page body retrieval failed with HTTP 402, so this is not treated as a fully inspected page."
+    },
+    {
+      "id": "lisa_second_blooming_transcript",
+      "title": "Second Blooming (version 3.4 event dialogue transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Second_Blooming/Story",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Search-indexed transcript passages were accessible; direct page body retrieval failed with HTTP 402, so this is not treated as a fully inspected page."
+    },
+    {
+      "id": "prologue_knights_intro_transcript",
+      "title": "Knights of Favonius (Prologue quest dialogue)",
+      "url": "https://genshin-impact.fandom.com/wiki/Knights_of_Favonius_%28Quest%29",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Game dialogue accessed through indexed search results; direct full-page access blocked."
+    },
+    {
+      "id": "prologue_shadow_crystal_transcript",
+      "title": "Shadow Over Mondstadt (Prologue quest dialogue)",
+      "url": "https://genshin-impact.fandom.com/wiki/Shadow_Over_Mondstadt",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Game dialogue accessed through indexed search results; direct full-page access blocked."
+    },
+    {
+      "id": "klee_profile",
+      "title": "Klee/Profile (in-game character profile transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Klee/Profile",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Search-indexed character profile; direct open returned HTTP 402. Used for Spark Knight role, Alice as mother, solitary confinement cell at Knights HQ, and Klee’s characterization."
+    },
+    {
+      "id": "klee_storyline",
+      "title": "Klee/Storyline (quest and event summaries with in-game citations)",
+      "url": "https://genshin-impact.fandom.com/wiki/Klee/Storyline",
+      "kind": "community_summary",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Search result identifies Klee’s relationships and quest/event scenes; direct open returned HTTP 402. Optional story/event details are not enabled by this pack."
+    },
+    {
+      "id": "midsummer_16",
+      "title": "Midsummer Island Adventure (Version 1.6 event transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Midsummer_Island_Adventure/Story",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Search result describes the Dodo-King mystery and Alice reveal; direct open returned HTTP 402. Referenced for source context only; event remains gated."
+    },
+    {
+      "id": "summer_28",
+      "title": "The Golden Apple Vacation Returns! (Version 2.8 event transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/The_Golden_Apple_Vacation_Returns%21",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Search-indexed event reference; not used to assert Klee has completed the event. Optional event remains gated."
+    },
+    {
+      "id": "official_16",
+      "title": "Midsummer Island Adventure Version 1.6 Update Notice",
+      "url": "https://www.hoyolab.com/article/415463",
+      "kind": "official_event_notice",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Official event notice confirms Midsummer Island Adventure and that Klee’s Story Quest was a separate unlockable quest. Direct open exposed only a minimal page, so used for availability framing, not dialogue facts."
+    },
+    {
+      "id": "homeward_64_transcript",
+      "title": "Homeward, He Who Caught the Wind (Version 6.4 event quest transcript)",
+      "url": "https://www.hoyodex.com/wiki/genshin-impact/homeward-he-who-caught-the-wind-quest",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Search-indexed transcript exposes Venti naming Kleiner, Alice identifying him as Klee’s father, and saying he works as a Seeker. Direct page open returned HTTP 402. No claims about his identity or history beyond that dialogue are made."
+    },
+    {
+      "id": "klee_true_treasure",
+      "title": "True Treasure (Klee Story Quest summary with game citations)",
+      "url": "https://genshin-impact.fandom.com/wiki/True_Treasure",
+      "kind": "community_summary",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Relevant quest summary returned through search indexing; direct page blocked. Supports optional scene only."
+    },
+    {
+      "id": "barbara_official_mondstadt",
+      "title": "Barbara — official Mondstadt character introduction",
+      "url": "https://genshin.hoyoverse.com/en/character/mondstadt?char=11&lang=en"
+    },
+    {
+      "id": "barbara_profile",
+      "title": "Barbara/Profile (in-game character profile and story transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Barbara/Profile"
+    },
+    {
+      "id": "barbara_voiceovers",
+      "title": "Barbara/Voice-Overs (profile voice-over transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Barbara/Voice-Overs"
+    },
+    {
+      "id": "barbara_prologue_ending_note",
+      "title": "Ending Note (Prologue Act III quest transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Ending_Note"
+    },
+    {
+      "id": "barbara_hangout",
+      "title": "A Very Special Beverage (Barbara Hangout route transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/A_Very_Special_Beverage"
+    },
+    {
+      "id": "barbara_moriasmoday",
+      "title": "Barbara character recap (Vietnamese community summary; indexed result)",
+      "url": "https://www.moriasmoday.com/characters/barbara",
+      "kind": "community_summary",
+      "retrieved_at": "2026-10-28"
+    },
+    {
+      "id": "noelle_official_profile",
+      "title": "Noelle official character profile (HoYoverse character page)",
+      "url": "https://genshin.hoyoverse.com/en/character/mondstadt?char=0&lang=en",
+      "kind": "official_character_profile",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Search-indexed official profile text identifies Noelle as an aspiring knight working as a maid at Knights headquarters and learning knightly customs. Direct English page returned no body in this browser; official page text was also corroborated against accessible official localized character pages."
+    },
+    {
+      "id": "noelle_profile",
+      "title": "Noelle/Profile (in-game character stories and profile transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Noelle/Profile",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Search indexing exposed profile and Vision-story text, including her seventh test failure, Geo Vision day, unusual strength, Dragonspine rescue, and Jean/Kaeya safety assignments. Direct open returned HTTP 402; treated as a transcript of game text, not a separate authorial explanation."
+    },
+    {
+      "id": "noelle_voiceovers",
+      "title": "Noelle/Voice-Overs (English in-game profile lines)",
+      "url": "https://genshin-impact.fandom.com/wiki/Noelle/Voice-Overs",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Search indexing exposed her English voice lines about Jean, Amber, Kaeya, her maid identity, and Geo Vision. Direct open returned HTTP 402."
+    },
+    {
+      "id": "noelle_hangout_act1",
+      "title": "Hangout Event: Noelle Act I - Chivalric Training (quest transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Chivalric_Training",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Search-indexed transcript establishes the optional first Hangout premise and quest requirements; not used to claim a completed shared memory."
+    },
+    {
+      "id": "noelle_hangout_act2",
+      "title": "Hangout Event: Noelle Act II - Knightly Exam Prep (quest transcripts)",
+      "url": "https://genshin-impact.fandom.com/wiki/Noelle_Rides_Out",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Search-indexed quest transcripts expose Noelle's exam anxiety and optional shared exam-prep routes. These are gated; transcript does not establish completion in this chat."
+    },
+    {
+      "id": "noelle_miscellany",
+      "title": "The Chief Maid of the Knights of Favonius - Noelle Character Miscellany",
+      "url": "https://www.hoyolab.com/article/17127705",
+      "kind": "official_character_miscellany_commentary",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Accessible official HoYoLAB post summarizes profile and voice-line lore. It explicitly frames deliberate interference with exam passing as probable, not confirmed by the game text; used only to mark that interpretation as uncertain."
+    },
+    {
+      "id": "noelle_moriasmoday",
+      "title": "Noelle character page (MoriasModay; access attempt)",
+      "url": "https://www.moriasmoday.com/characters/noelle",
+      "kind": "community_summary_attempt",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Required page open via web tool failed as inaccessible. Targeted site search returned no Noelle page or indexed Noelle body. Direct HTTPS request returned HTTP 404. Search did reveal Noelle mentions embedded in other character pages (e.g. Kaeya/Barbara voice-over mentions); these are secondary snippets, not a full Noelle dossier."
+    },
+    {
+      "id": "fischl_official_character",
+      "title": "Official Genshin Impact character profile: Fischl",
+      "url": "https://genshin.hoyoverse.com/en/character/mondstadt?char=11&lang=en",
+      "kind": "official_character_profile",
+      "retrieved_at": "2026-10-28"
+    },
+    {
+      "id": "fischl_profile",
+      "title": "Fischl/Profile — indexed in-game character story and profile text",
+      "url": "https://genshin-impact.fandom.com/wiki/Fischl/Profile",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28"
+    },
+    {
+      "id": "fischl_voiceovers",
+      "title": "Fischl/Voice-Overs — indexed in-game voice-over text",
+      "url": "https://genshin-impact.fandom.com/wiki/Fischl/Voice-Overs",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28"
+    },
+    {
+      "id": "fischl_unreconciled_stars_transcript",
+      "title": "Unreconciled Stars — event story transcript",
+      "url": "https://genshin-impact.fandom.com/wiki/Unreconciled_Stars/Story",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28"
+    },
+    {
+      "id": "fischl_28_event_transcript",
+      "title": "Immernachtreich Apokalypse, Part 2 — Version 2.8 event transcript",
+      "url": "https://genshin-impact.fandom.com/wiki/Immernachtreich_Apokalypse_(Part_2)",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28"
+    },
+    {
+      "id": "fischl_flowers_book",
+      "title": "Flowers for Princess Fischl — in-game book record",
+      "url": "https://genshin-impact.fandom.com/wiki/Flowers_for_Princess_Fischl",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-10-28"
+    },
+    {
+      "id": "fischl_moriasmoday",
+      "title": "Fischl — Moriasmoday character recap (access attempt recorded; no dossier text retrieved)",
+      "url": "https://www.moriasmoday.com/characters/fischl",
+      "kind": "secondary_recap_access_attempt",
+      "retrieved_at": "2026-10-28"
+    },
+    {
+      "id": "fischl_witch_homework_recording",
+      "title": "Alan Smithee, Author of Fischl (gameplay dialogue recording/transcript)",
+      "url": "https://www.dailymotion.com/video/x9v4g3y",
+      "kind": "community_hosted_primary_recording_transcript",
+      "retrieved_at": "2026-10-28",
+      "evidence_note": "Accessible indexed gameplay transcript around19:18–20:43; relevant creation-metaphor discussion cross-checked by coordinator. Auto-transcription can miss names; no unverified mechanics inferred."
+    },
+    {
+      "id": "sucrose_official_character",
+      "title": "Official Genshin Impact character introduction: Sucrose",
+      "url": "https://genshin.hoyoverse.com/en/character/mondstadt?char=9&lang=en",
+      "kind": "official_character_profile",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "sucrose_voiceovers",
+      "title": "Sucrose/Voice-Overs (in-game voice-over transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Sucrose/Voice-Overs",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "albedo_traveler_observation_report",
+      "title": "Traveler Observation Report (Princeps Cretaceus Act I quest transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Traveler_Observation_Report",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "chalk_prince_dragon_transcript",
+      "title": "The Chalk Prince and the Dragon (Version 1.2 event story transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/The_Chalk_Prince_and_the_Dragon/Story",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "windblumes_breath_transcript",
+      "title": "Windblume's Breath (Version 3.5 event story transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Windblume%27s_Breath/Story",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "sucrose_witch_homework_transcript",
+      "title": "Witch's Homework: Wonderland Flowers (Version 6.2 quest transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Witch%27s_Homework:_Wonderland_Flowers",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "diona_official_character",
+      "title": "Official HoYoLAB character introduction: Diona — Kätzlein Cocktail",
+      "url": "https://www.hoyolab.com/article/81562",
+      "kind": "official_character_profile",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "diona_voiceovers",
+      "title": "Diona/Voice-Overs (in-game voice-over transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Diona/Voice-Overs",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "diona_hangout_transcript",
+      "title": "The Cat and the Cocktail (Diona Hangout Act I quest transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/The_Cat_and_the_Cocktail",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "waterborne_poetry_transcript",
+      "title": "Waterborne Poetry (Version 4.1 event story transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Waterborne_Poetry/Story",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "amber_official_character",
+      "title": "Official Genshin Impact character introduction: Amber",
+      "url": "https://genshin.hoyoverse.com/en/character/mondstadt?char=1&lang=en",
+      "kind": "official_character_profile",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "amber_voiceovers",
+      "title": "Amber/Voice-Overs (in-game voice-over transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Amber/Voice-Overs",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "prologue_birds_eye_view",
+      "title": "Bird's Eye View & Winds of the Past (Prologue Act I quest transcripts)",
+      "url": "https://genshin-impact.fandom.com/wiki/Bird%27s_Eye_View",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "amber_story_quest_transcript",
+      "title": "Wind, Courage, and Wings (Lepus Chapter Act I quest transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Wind,_Courage,_and_Wings",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "shadows_amidst_snowstorms_transcript",
+      "title": "Shadows Amidst Snowstorms (Version 2.3 event story transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Shadows_Amidst_Snowstorms/Story",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "eula_official_character",
+      "title": "Official HoYoverse character introduction: Eula — Dance of the Shimmering Wave",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/103940",
+      "kind": "official_character_profile",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "eula_voiceovers",
+      "title": "Eula/Voice-Overs (in-game voice-over transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Eula/Voice-Overs",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "eula_story_quest_transcript",
+      "title": "The Spindrift Shall Never Return to the Sea (Aphros Delos Act I quest transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/The_Spindrift_Shall_Never_Return_to_the_Sea",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "id": "secret_summer_paradise_transcript",
+      "title": "Secret Summer Paradise (Version 3.8 event story transcript)",
+      "url": "https://genshin-impact.fandom.com/wiki/Secret_Summer_Paradise/Story",
+      "kind": "community_hosted_primary_text",
+      "retrieved_at": "2026-11-05"
+    }
+  ],
+  "entities": [
+    {
+      "id": "primordial_one",
+      "name": "Primordial One",
+      "aliases": [
+        "Phanes (possible name in an in-world account)"
+      ]
+    },
+    {
+      "id": "heavenly_principles",
+      "name": "Heavenly Principles",
+      "aliases": [
+        "the Heavenly Principles"
+      ]
+    },
+    {
+      "id": "celestia",
+      "name": "Celestia",
+      "aliases": [
+        "the heavens"
+      ]
+    },
+    {
+      "id": "four_shades",
+      "name": "Four Shades / Four Great Rulers",
+      "aliases": [
+        "Four Shades",
+        "Four Great Rulers",
+        "Four Rulers",
+        "the Shades"
+      ]
+    },
+    {
+      "id": "ronova",
+      "name": "Ronova",
+      "aliases": [
+        "Ruler of Death"
+      ]
+    },
+    {
+      "id": "naberius",
+      "name": "Naberius",
+      "aliases": [
+        "the Ruler of Life (official 5.7 teaser credit)"
+      ]
+    },
+    {
+      "id": "rhinedottir",
+      "name": "Rhinedottir",
+      "aliases": [
+        "Gold",
+        "Ruler of Life (Version 7.1 press material)"
+      ]
+    },
+    {
+      "id": "istaroth",
+      "name": "Istaroth",
+      "aliases": [
+        "Ruler of Time",
+        "Kairos"
+      ]
+    },
+    {
+      "id": "ruler_space",
+      "name": "Asmoday",
+      "aliases": [
+        "Ruler of Space"
+      ]
+    },
+    {
+      "id": "seven_sovereigns",
+      "name": "Seven Sovereigns",
+      "aliases": [
+        "Dragon Sovereigns"
+      ]
+    },
+    {
+      "id": "archons",
+      "name": "Archons and divine seats",
+      "aliases": [
+        "Archon",
+        "Archons",
+        "the Seven",
+        "Archon seats"
+      ]
+    },
+    {
+      "id": "gnoses",
+      "name": "Gnoses",
+      "aliases": [
+        "Gnosis"
+      ]
+    },
+    {
+      "id": "authorities",
+      "name": "Elemental Authorities",
+      "aliases": [
+        "Authority",
+        "Authorities"
+      ]
+    },
+    {
+      "id": "abyss",
+      "name": "Abyss",
+      "aliases": [
+        "the Abyss"
+      ]
+    },
+    {
+      "id": "abyss_order",
+      "name": "Abyss Order",
+      "aliases": []
+    },
+    {
+      "id": "khaenriah",
+      "name": "Khaenri'ah",
+      "aliases": [
+        "Khaenri’ah"
+      ]
+    },
+    {
+      "id": "irminsul",
+      "name": "Irminsul",
+      "aliases": [
+        "World Tree"
+      ]
+    },
+    {
+      "id": "ley_lines",
+      "name": "Ley Lines",
+      "aliases": [
+        "ley line memories"
+      ]
+    },
+    {
+      "id": "descenders",
+      "name": "Descenders",
+      "aliases": []
+    },
+    {
+      "id": "dvalin",
+      "name": "Dvalin",
+      "aliases": [
+        "Stormterror"
+      ]
+    },
+    {
+      "id": "four_winds",
+      "name": "Four Winds of Mondstadt",
+      "aliases": []
+    },
+    {
+      "id": "nameless_bard",
+      "name": "Nameless Bard",
+      "aliases": [
+        "the boy Venti befriended in Old Mondstadt"
+      ]
+    },
+    {
+      "id": "venti",
+      "name": "Venti",
+      "aliases": [
+        "the bard"
+      ]
+    },
+    {
+      "id": "jean",
+      "name": "Jean",
+      "aliases": [
+        "Acting Grand Master"
+      ]
+    },
+    {
+      "id": "diluc",
+      "name": "Diluc",
+      "aliases": [
+        "Master of Dawn Winery"
+      ]
+    },
+    {
+      "id": "mona",
+      "name": "Mona Megistus",
+      "aliases": [
+        "Astrologist Mona",
+        "Mona"
+      ]
+    },
+    {
+      "id": "hans_archibald",
+      "name": "Hans Archibald",
+      "aliases": []
+    },
+    {
+      "id": "real_stanley",
+      "name": "Stanley (Mare Jivari adventurer)",
+      "aliases": []
+    },
+    {
+      "id": "traveler",
+      "name": "Aether / the Traveler",
+      "aliases": [
+        "Aether",
+        "Traveler",
+        "the Traveler"
+      ]
+    },
+    {
+      "id": "pierro",
+      "name": "Pierro",
+      "aliases": [
+        "the Jester",
+        "Director of the Fatui"
+      ]
+    },
+    {
+      "id": "celestial_nail",
+      "name": "Celestial pillar / Nail",
+      "aliases": [
+        "Skyfrost Nail"
+      ]
+    },
+    {
+      "id": "mondstadt",
+      "name": "Mondstadt",
+      "aliases": [
+        "City of Freedom"
+      ]
+    },
+    {
+      "id": "barbatos",
+      "name": "Barbatos",
+      "aliases": [
+        "Anemo Archon"
+      ]
+    },
+    {
+      "id": "morax",
+      "name": "Morax",
+      "aliases": [
+        "Rex Lapis",
+        "Geo Archon"
+      ]
+    },
+    {
+      "id": "zhongli",
+      "name": "Zhongli",
+      "aliases": [
+        "Wangsheng Funeral Parlor consultant"
+      ]
+    },
+    {
+      "id": "ei",
+      "name": "Ei",
+      "aliases": [
+        "Raiden Shogun",
+        "Electro Archon"
+      ]
+    },
+    {
+      "id": "nahida",
+      "name": "Nahida",
+      "aliases": [
+        "Lesser Lord Kusanali",
+        "Dendro Archon"
+      ]
+    },
+    {
+      "id": "mavuika",
+      "name": "Mavuika",
+      "aliases": [
+        "Pyro Archon"
+      ]
+    },
+    {
+      "id": "tsaritsa",
+      "name": "Tsaritsa",
+      "aliases": [
+        "Archon of Snezhnaya"
+      ]
+    },
+    {
+      "id": "decarabian",
+      "name": "Decarabian",
+      "aliases": [
+        "Storm God of Old Mondstadt"
+      ]
+    },
+    {
+      "id": "crepus",
+      "name": "Crepus Ragnvindr",
+      "aliases": [
+        "Master Crepus"
+      ]
+    },
+    {
+      "id": "kaeya",
+      "name": "Kaeya",
+      "aliases": [
+        "Kaeya Alberich",
+        "Kaeya",
+        "Cavalry Captain"
+      ]
+    },
+    {
+      "id": "eroch",
+      "name": "Inspector Eroch",
+      "aliases": [
+        "Eroch"
+      ]
+    },
+    {
+      "id": "delusion",
+      "name": "Delusion",
+      "aliases": [
+        "Delusions"
+      ]
+    },
+    {
+      "id": "fatui",
+      "name": "Fatui",
+      "aliases": [
+        "The Fatui"
+      ]
+    },
+    {
+      "id": "dawn_winery",
+      "name": "Dawn Winery",
+      "aliases": [
+        "Ragnvindr family winery"
+      ]
+    },
+    {
+      "id": "teyvat",
+      "name": "Teyvat",
+      "aliases": []
+    },
+    {
+      "id": "barbeloth",
+      "name": "Barbeloth",
+      "aliases": [
+        "Astromancer Barbeloth Trismegistus"
+      ]
+    },
+    {
+      "id": "alice",
+      "name": "Alice",
+      "aliases": [
+        "Alice of the Hexenzirkel"
+      ]
+    },
+    {
+      "id": "klee",
+      "name": "Klee",
+      "aliases": []
+    },
+    {
+      "id": "steambird",
+      "name": "The Steambird",
+      "aliases": [
+        "All Things Astrological"
+      ]
+    },
+    {
+      "id": "knights",
+      "name": "Knights of Favonius",
+      "aliases": [
+        "The Knights"
+      ]
+    },
+    {
+      "id": "lisa",
+      "name": "Lisa Minci",
+      "aliases": [
+        "Lisa",
+        "the librarian"
+      ]
+    },
+    {
+      "id": "barbara",
+      "name": "Barbara Pegg",
+      "aliases": [
+        "Barbara",
+        "the Deaconess"
+      ]
+    },
+    {
+      "id": "varka",
+      "name": "Varka",
+      "aliases": [
+        "Grand Master Varka"
+      ]
+    },
+    {
+      "id": "frederica",
+      "name": "Frederica Gunnhildr",
+      "aliases": [
+        "Frederica",
+        "Jean and Barbara’s mother"
+      ]
+    },
+    {
+      "id": "seamus",
+      "name": "Seamus Pegg",
+      "aliases": [
+        "Seamus",
+        "Cardinal of Daybreak"
+      ]
+    },
+    {
+      "id": "capitano",
+      "name": "Il Capitano / The Captain",
+      "aliases": [
+        "The Captain",
+        "Il Capitano",
+        "Capitano"
+      ]
+    },
+    {
+      "id": "lord_of_the_night",
+      "name": "Yohualtecuhtin, Lord of the Night",
+      "aliases": [
+        "Lord of the Night",
+        "Yohualtecuhtin"
+      ]
+    },
+    {
+      "id": "night_kingdom",
+      "name": "Night Kingdom",
+      "aliases": [
+        "the Night Kingdom"
+      ]
+    },
+    {
+      "id": "xbalanque",
+      "name": "Xbalanque",
+      "aliases": []
+    },
+    {
+      "id": "dainsleif",
+      "name": "Dainsleif",
+      "aliases": [
+        "Dain"
+      ]
+    },
+    {
+      "id": "alberich_clan",
+      "name": "Alberich Clan",
+      "aliases": [
+        "the Alberichs",
+        "Alberich family"
+      ]
+    },
+    {
+      "id": "kaeya_biological_father",
+      "name": "Kaeya's biological father (unnamed)",
+      "aliases": [
+        "Kaeya's birth father",
+        "Kaeya's biological father",
+        "Kaeya's father"
+      ]
+    },
+    {
+      "id": "sumeru_akademiya",
+      "name": "Sumeru Akademiya",
+      "aliases": [
+        "Akademiya",
+        "the Akademiya",
+        "Sumeru's Akademiya"
+      ]
+    },
+    {
+      "id": "spantamad",
+      "name": "Spantamad Darshan",
+      "aliases": [
+        "Spantamad",
+        "Spantamad Darshan"
+      ]
+    },
+    {
+      "id": "sumeru_cyrus",
+      "name": "Cyrus (Sumeru Akademiya scholar)",
+      "aliases": [
+        "Professor Cyrus",
+        "Lisa's Akademiya teacher"
+      ]
+    },
+    {
+      "id": "razor",
+      "name": "Razor",
+      "aliases": [
+        "the Wolf Boy"
+      ]
+    },
+    {
+      "id": "visions",
+      "name": "Visions",
+      "aliases": [
+        "Vision",
+        "elemental Vision",
+        "Vision bearer"
+      ]
+    },
+    {
+      "id": "paimon",
+      "name": "Paimon",
+      "aliases": [
+        "Paimon"
+      ]
+    },
+    {
+      "id": "hexenzirkel",
+      "name": "Hexenzirkel",
+      "aliases": [
+        "the Hexenzirkel",
+        "Witch Circle"
+      ]
+    },
+    {
+      "id": "dodoco",
+      "name": "Dodoco",
+      "aliases": [
+        "Klee’s Dodoco",
+        "Klee’s plush Dodoco"
+      ]
+    },
+    {
+      "id": "albedo",
+      "name": "Albedo",
+      "aliases": [
+        "Kreideprinz"
+      ]
+    },
+    {
+      "id": "kleiner",
+      "name": "Kleiner",
+      "aliases": [
+        "Klee’s father",
+        "Klee’s dad",
+        "Alice’s husband"
+      ]
+    },
+    {
+      "id": "church_favonius",
+      "name": "Church of Favonius",
+      "aliases": [
+        "Favonius Church",
+        "the Cathedral",
+        "Mondstadt Cathedral"
+      ]
+    },
+    {
+      "id": "noelle",
+      "name": "Noelle",
+      "aliases": [
+        "Maid of Favonius",
+        "Wondermaid",
+        "Chivalric Blossom"
+      ]
+    },
+    {
+      "id": "amber",
+      "name": "Amber",
+      "aliases": [
+        "Outrider Amber",
+        "Gliding Champion"
+      ]
+    },
+    {
+      "id": "fischl",
+      "name": "Fischl",
+      "aliases": [
+        "Prinzessin der Verurteilung",
+        "Prinzessin",
+        "Mein Fräulein"
+      ]
+    },
+    {
+      "id": "amy",
+      "name": "Amy",
+      "aliases": [
+        "Amy (Fischl's personal name)"
+      ]
+    },
+    {
+      "id": "oz",
+      "name": "Oz",
+      "aliases": [
+        "Ozvaldo von Hrafnavins",
+        "night raven"
+      ]
+    },
+    {
+      "id": "fischl_father",
+      "name": "Fischl's father",
+      "aliases": [
+        "Amy's father"
+      ]
+    },
+    {
+      "id": "fischl_mother",
+      "name": "Fischl's mother",
+      "aliases": [
+        "Amy's mother"
+      ]
+    },
+    {
+      "id": "adventurers_guild",
+      "name": "Adventurers' Guild",
+      "aliases": [
+        "Guild",
+        "Mondstadt Adventurers' Guild"
+      ]
+    },
+    {
+      "id": "prinzessin_der_verurteilung",
+      "name": "Prinzessin der Verurteilung",
+      "aliases": [
+        "Princess of Judgment",
+        "Prinzessin persona"
+      ]
+    },
+    {
+      "id": "flowers_for_princess_fischl",
+      "name": "Flowers for Princess Fischl",
+      "aliases": [
+        "Flowers for Princess Fischl: Phantasmagoria"
+      ]
+    },
+    {
+      "id": "immernachtreich",
+      "name": "Immernachtreich",
+      "aliases": [
+        "Evernight Kingdom",
+        "Fischl's imagined kingdom"
+      ]
+    },
+    {
+      "id": "kazuha",
+      "name": "Kaedehara Kazuha",
+      "aliases": [
+        "Kazuha"
+      ]
+    },
+    {
+      "id": "xinyan",
+      "name": "Xinyan",
+      "aliases": []
+    },
+    {
+      "id": "sucrose",
+      "name": "Sucrose",
+      "aliases": [
+        "Harmless Sweetie",
+        "Bio-Alchemist Sucrose"
+      ]
+    },
+    {
+      "id": "diona",
+      "name": "Diona",
+      "aliases": [
+        "Kätzlein Cocktail",
+        "Wine Industry Slayer"
+      ]
+    },
+    {
+      "id": "eula",
+      "name": "Eula Lawrence",
+      "aliases": [
+        "Eula",
+        "Spindrift Knight",
+        "Captain Eula"
+      ]
+    },
+    {
+      "id": "timaeus",
+      "name": "Timaeus",
+      "aliases": [
+        "Scholar Timaeus"
+      ]
+    },
+    {
+      "id": "collei",
+      "name": "Collei",
+      "aliases": [
+        "Trainee Forest Ranger Collei"
+      ]
+    },
+    {
+      "id": "draff",
+      "name": "Draff",
+      "aliases": [
+        "Head Hunter Draff"
+      ]
+    },
+    {
+      "id": "margaret",
+      "name": "Margaret",
+      "aliases": [
+        "Boss Margaret"
+      ]
+    },
+    {
+      "id": "cats_tail",
+      "name": "The Cat's Tail",
+      "aliases": [
+        "Cat's Tail Tavern",
+        "Cat's Tail"
+      ]
+    },
+    {
+      "id": "springvale",
+      "name": "Springvale",
+      "aliases": [
+        "Springvale Village"
+      ]
+    },
+    {
+      "id": "katzlein",
+      "name": "Kätzlein Bloodline",
+      "aliases": [
+        "Kätzlein",
+        "Katzlein"
+      ]
+    },
+    {
+      "id": "elzer",
+      "name": "Elzer",
+      "aliases": [
+        "Winery Guild Chairman Elzer"
+      ]
+    },
+    {
+      "id": "spring_fairy",
+      "name": "Spring Fairy of Springvale",
+      "aliases": [
+        "Spring Fairy",
+        "Callirhoe"
+      ]
+    },
+    {
+      "id": "baron_bunny",
+      "name": "Baron Bunny",
+      "aliases": [
+        "Amber's Baron Bunny"
+      ]
+    },
+    {
+      "id": "amber_grandfather",
+      "name": "Amber's grandfather",
+      "aliases": [
+        "founder of the Outriders"
+      ]
+    },
+    {
+      "id": "outriders",
+      "name": "Outriders of the Knights of Favonius",
+      "aliases": [
+        "Outrider division",
+        "Favonius Outriders"
+      ]
+    },
+    {
+      "id": "good_hunter",
+      "name": "Good Hunter",
+      "aliases": [
+        "Good Hunter restaurant"
+      ]
+    },
+    {
+      "id": "sara_good_hunter",
+      "name": "Sara of Good Hunter",
+      "aliases": [
+        "Waitress Sara"
+      ]
+    },
+    {
+      "id": "lawrence_clan",
+      "name": "Lawrence Clan",
+      "aliases": [
+        "House Lawrence",
+        "the Lawrence family"
+      ]
+    },
+    {
+      "id": "schubert_lawrence",
+      "name": "Schubert Lawrence",
+      "aliases": [
+        "Uncle Schubert"
+      ]
+    },
+    {
+      "id": "lessig_lawrence",
+      "name": "Lessig Lawrence",
+      "aliases": [
+        "Cousin Lessig"
+      ]
+    },
+    {
+      "id": "mika",
+      "name": "Mika Schmidt",
+      "aliases": [
+        "Mika",
+        "Front-Line Surveyor Mika"
+      ]
+    },
+    {
+      "id": "yanfei",
+      "name": "Yanfei",
+      "aliases": [
+        "Legal Adviser Yanfei"
+      ]
+    },
+    {
+      "id": "bennett",
+      "name": "Bennett",
+      "aliases": [
+        "Benny's Adventure Team"
+      ]
+    },
+    {
+      "id": "dragonspine",
+      "name": "Dragonspine",
+      "aliases": [
+        "Vindagnyr"
+      ]
+    },
+    {
+      "id": "liyue",
+      "name": "Liyue",
+      "aliases": [
+        "Liyue Harbor"
+      ]
+    },
+    {
+      "id": "darknight_hero",
+      "name": "Darknight Hero",
+      "aliases": [
+        "Mondstadt's Darknight Hero"
+      ]
+    }
+  ],
+  "baseline": [
+    {
+      "id": "ancient_account",
+      "title": "An ancient account, with limits",
+      "text": "Before Sun and Moon is an in-world Enkanomiyan history, not an all-knowing narrator. It says the Primordial One came to Teyvat, made four Shades, fought the Seven Sovereigns, and reshaped the world. The text itself is fragmentary. It offers Phanes as a possible name; do not state that as certain.",
+      "source_ids": [
+        "before_sun_moon"
+      ],
+      "release_version": "2.4",
+      "characters": [
+        "*"
+      ],
+      "entity_ids": [
+        "primordial_one",
+        "four_shades",
+        "seven_sovereigns"
+      ],
+      "evidence": "source_reported",
+      "summary": "Before Sun and Moon attributes four Shades and the Sovereign war to the Primordial One. It is a fragmentary in-world account; the name Phanes is uncertain."
+    },
+    {
+      "id": "heavenly_principles_celestia",
+      "title": "Heavenly Principles and Celestia",
+      "text": "The Heavenly Principles are a governing divine power behind Teyvat's order, not merely an impersonal natural law. Celestia is associated with that power; the names are not interchangeable. The Four Shades serve as its divine envoys or projections and act under its rules and constraints. Their exact origin and the identity relationship between the Heavenly Principles and the Primordial One remain disputed in the reviewed accounts; that uncertainty does not erase the Shades' known connection to this governing power.",
+      "source_ids": [
+        "official_gods_limits",
+        "ronova_profile_review",
+        "before_sun_moon"
+      ],
+      "release_version": "4.2",
+      "characters": [
+        "*"
+      ],
+      "entity_ids": [
+        "heavenly_principles",
+        "celestia",
+        "primordial_one"
+      ],
+      "evidence": "source_reported",
+      "summary": "The Heavenly Principles govern divine order; Celestia is associated, not an interchangeable name. The Shades serve under its constraints; the Primordial One relationship is unresolved."
+    },
+    {
+      "id": "four_shades_domains",
+      "title": "Four Shades and their domains",
+      "text": "The Four Shades serve the Heavenly Principles over the foundational domains of Life, Death, Time, and Space. Ronova is the Ruler of Death, Istaroth of Time, and Asmoday of Space. The Life title is associated with Naberius and, in later reviewed material, Rhinedottir; do not invent their exact relationship or succession mechanism. Unlike the Seven, the Shades are not regional elemental Archons. They serve the Heavenly Principles, not the Archons; having a Gnosis or ruling a nation does not make an Archon their superior. A domain does not grant unrestricted control over every event within it.",
+      "source_ids": [
+        "official_gods_limits",
+        "official_71_press",
+        "official_71_patch",
+        "before_sun_moon",
+        "ronova_profile_review",
+        "asmoday_localization_reference",
+        "asmoday_71_summary"
+      ],
+      "release_version": "7.1",
+      "characters": [
+        "*"
+      ],
+      "entity_ids": [
+        "four_shades",
+        "ronova",
+        "naberius",
+        "rhinedottir",
+        "istaroth",
+        "ruler_space",
+        "heavenly_principles"
+      ],
+      "evidence": "source_reported",
+      "summary": "The Shades serve the Heavenly Principles, not the Archons: Death/Ronova, Time/Istaroth, Space/Asmoday, Life/Naberius and later Rhinedottir (relationship unresolved). Domains do not grant omnipotence."
+    },
+    {
+      "id": "archon_roster",
+      "title": "Named Archons and public roles",
+      "text": "Morax is the Geo Archon, also called Rex Lapis; Ei is the Raiden Shogun associated with Inazuma's Electro Archon seat; Nahida is Lesser Lord Kusanali, Sumeru's Dendro Archon; Mavuika is Natlan's current Pyro Archon; and the Tsaritsa leads Snezhnaya and the Fatui's Gnosis plan. Zhongli is publicly described as a consultant at the Wangsheng Funeral Parlor. Furina is not the Hydro Archon: Focalors destroyed the Hydro divine throne and returned its Authority to Neuvillette. Barbatos is the Anemo Archon of Mondstadt.",
+      "source_ids": [
+        "official_mondstadt_chars",
+        "neuvillette_profile",
+        "fontaine_finale",
+        "official_inazuma_chars",
+        "official_sumeru_chars",
+        "official_liyue_chars",
+        "official_71_press",
+        "official_mavuika"
+      ],
+      "release_version": "7.1",
+      "characters": [
+        "*"
+      ],
+      "entity_ids": [
+        "barbatos",
+        "morax",
+        "zhongli",
+        "ei",
+        "nahida",
+        "mavuika",
+        "tsaritsa",
+        "archons",
+        "authorities"
+      ],
+      "evidence": "source_reported",
+      "summary": "Barbatos: Anemo/Mondstadt; Morax/Rex Lapis: Geo; Ei: Electro/Inazuma; Nahida/Kusanali: Dendro/Sumeru; Mavuika: Pyro/Natlan; Tsaritsa: Snezhnaya/Fatui. Focalors' Hydro throne is gone; Furina is not Hydro Archon, Authority returned to Neuvillette. Zhongli publicly works for Wangsheng."
+    },
+    {
+      "id": "authority_seat_gnosis",
+      "title": "Authority, Archon seat, and Gnosis differ",
+      "text": "Elemental Authority, an Archon's divine seat/title, and a Gnosis are related but distinct. A Gnosis can be lost without automatically removing an Archon title. In Fontaine, destruction of the Hydro Archon's divine throne returns Hydro Authority to Neuvillette. Dragon Sovereigns' elemental Authorities have their own history; do not collapse these systems into one.",
+      "source_ids": [
+        "neuvillette_profile",
+        "fontaine_finale",
+        "sumeru_archon_quest"
+      ],
+      "release_version": "4.2",
+      "characters": [
+        "*"
+      ],
+      "entity_ids": [
+        "authorities",
+        "archons",
+        "gnoses",
+        "seven_sovereigns"
+      ],
+      "evidence": "source_reported",
+      "summary": "Elemental Authority, divine seat/title and Gnosis are distinct. Gnosis loss need not end an Archon title; the destroyed Hydro throne returned Authority to Neuvillette."
+    },
+    {
+      "id": "archon_war_successors",
+      "title": "The Seven and later successors",
+      "text": "The Archon War ended with seven victors and the era of the Seven. Later holders can succeed an original victor, so not every current Archon personally won that war. Archon title, original victory, and Gnosis possession are separate facts.",
+      "source_ids": [
+        "neuvillette_profile",
+        "fontaine_finale"
+      ],
+      "release_version": "4.2",
+      "characters": [
+        "*"
+      ],
+      "entity_ids": [
+        "archons",
+        "gnoses",
+        "authorities"
+      ],
+      "evidence": "source_reported",
+      "summary": "Seven victors ended the Archon War. Later successors did not all win that war; victory, title and Gnosis possession are distinct."
+    },
+    {
+      "id": "abyss_khaenriah",
+      "title": "Abyss and Khaenri'ah are not one faction",
+      "text": "Khaenri'ah was a nation without an Archon. The Abyss is a realm or power; the Abyss Order is a faction connected to it. Khaenri'ahn origin does not make someone an Abyss Order member, and an Abyss creature is not necessarily a person. Accounts of the Cataclysm and its causes are partial and speaker-dependent.",
+      "source_ids": [
+        "abyss_order_story",
+        "sumeru_archon_quest"
+      ],
+      "release_version": "5.6",
+      "characters": [
+        "*"
+      ],
+      "entity_ids": [
+        "abyss",
+        "abyss_order",
+        "khaenriah"
+      ],
+      "evidence": "source_reported",
+      "summary": "Khaenri'ah had no Archon. The Abyss is a realm/power; the Abyss Order is a faction. Origin is not membership, and Cataclysm accounts remain partial."
+    },
+    {
+      "id": "irminsul_memory",
+      "title": "Irminsul, Ley Lines, and memory",
+      "text": "Irminsul receives the world's memories through Ley Lines. Removing a person from its records can change how people remember history while leaving physical consequences in place. The Traveler retains a removed memory as an outsider. The sibling is recorded in Irminsul despite an origin beyond this world; keep both facts without inventing a reconciliation.",
+      "source_ids": [
+        "sumeru_archon_quest",
+        "inversion_genesis"
+      ],
+      "release_version": "3.3",
+      "characters": [
+        "*"
+      ],
+      "entity_ids": [
+        "irminsul",
+        "ley_lines",
+        "descenders",
+        "traveler"
+      ],
+      "evidence": "source_reported",
+      "summary": "Irminsul receives memory through Ley Lines; edits alter remembered history while physical consequences remain. Aether retains removed memories; the outsider sibling is recorded. Do not invent a reconciliation."
+    },
+    {
+      "id": "descender_accounts",
+      "title": "Nahida's attributed Descender account",
+      "text": "Nahida relays Fatui intelligence that Descenders are beings from beyond this world and that the Fatui classify the Traveler as the Fourth, but not the sibling. This is an attributed classification, not a complete universal test. The sibling's external origin and Irminsul record both remain in the story; do not invent a reconciliation.",
+      "source_ids": [
+        "sumeru_archon_quest",
+        "inversion_genesis"
+      ],
+      "release_version": "3.2",
+      "characters": [
+        "*"
+      ],
+      "entity_ids": [
+        "descenders",
+        "traveler",
+        "irminsul"
+      ],
+      "evidence": "source_reported",
+      "summary": "Nahida attributes to Fatui intelligence the classification of Aether as Fourth Descender, but not the sibling. External origin and Irminsul registration are not a complete universal test."
+    },
+    {
+      "id": "mondstadt_freedom",
+      "title": "Mondstadt and its people",
+      "text": "Mondstadt values freedom and is protected by the Knights of Favonius. Barbatos is its Anemo Archon, but his approach is to let the people govern themselves rather than rule directly. The city's safety and personal liberty can both matter in a crisis.",
+      "source_ids": [
+        "venti_profile",
+        "jean_profile",
+        "official_mondstadt_chars"
+      ],
+      "release_version": "1.0",
+      "characters": [
+        "*"
+      ],
+      "entity_ids": [
+        "mondstadt",
+        "barbatos",
+        "archons"
+      ],
+      "evidence": "canon",
+      "summary": "Mondstadt values freedom and self-rule. The Knights protect its people; Barbatos is its Anemo Archon, not its daily administrator."
+    },
+    {
+      "id": "post71_feed",
+      "title": "Selected conversation setting",
+      "text": "For this product's post-7.1 story profile, the reviewed main-story update is available to the selected conversation cast. This is authored setting knowledge, not proof of a broadcast, a particular messenger, eyewitness presence, or universal public knowledge in Teyvat.",
+      "source_ids": [
+        "official_version_71",
+        "official_71_patch"
+      ],
+      "release_version": "7.1",
+      "characters": [
+        "*"
+      ],
+      "entity_ids": [
+        "ronova",
+        "traveler"
+      ],
+      "evidence": "setting",
+      "summary": "The selected post-7.1 update is available to this cast; this does not establish universal public knowledge, a messenger route or participation."
+    },
+    {
+      "id": "divine_role_and_local_governance",
+      "title": "Divine authority and civil government are different",
+      "text": "A divine title does not mean its holder runs a nation's daily government. Mondstadt governs itself through its people and the Knights of Favonius; Barbatos deliberately does not administer its laws, festivals, or routine defenses. Fontaine no longer has a Hydro Archon throne, yet its civil institutions continue. The nations do not share one uniform Archon-led political system. A hypothetical change in a Shade's domain does not establish any change to those civic institutions; its concrete effects must be supported separately.",
+      "source_ids": [
+        "venti_profile",
+        "mondstadt_hoyowiki",
+        "fontaine_finale"
+      ],
+      "release_version": "4.2",
+      "characters": [
+        "*"
+      ],
+      "entity_ids": [
+        "mondstadt",
+        "barbatos",
+        "archons",
+        "authorities",
+        "four_shades"
+      ],
+      "evidence": "source_reported",
+      "summary": "Barbatos does not administer its laws, festivals, or routine defenses; Mondstadt governs itself. Fontaine's civil institutions remain without a Hydro throne. Divine and civic authority are distinct."
+    }
+  ],
+  "events": [
+    {
+      "id": "dvalin_crisis",
+      "title": "Dvalin crisis and shared Traveler history",
+      "text": "Venti, Jean, Diluc, and Aether helped free Dvalin from Abyssal corruption in the Mondstadt Prologue. Venti directed attention to the tainted blood clots on Dvalin; removing that corruption was central to freeing him. This restored his freedom and eased the corruption, not a transformation into a different true form. Venti and Dvalin's long bond endured. This is shared main-story history, independent of the local chat log.",
+      "source_ids": [
+        "venti_storyline",
+        "venti_profile",
+        "jean_profile",
+        "diluc_storyline",
+        "dvalin_long_shot"
+      ],
+      "release_version": "1.0",
+      "characters": [
+        "venti",
+        "jean",
+        "diluc"
+      ],
+      "entity_ids": [
+        "dvalin",
+        "traveler",
+        "abyss",
+        "mondstadt"
+      ],
+      "evidence": "canon",
+      "status": "resolved",
+      "effects": [
+        "Dvalin was freed from the corruption",
+        "Venti and Dvalin's bond survived a serious strain"
+      ],
+      "participants": [
+        "venti",
+        "jean",
+        "diluc",
+        "traveler"
+      ],
+      "knowledge_mode": "participant",
+      "summary": "Venti, Jean, Diluc and Aether freed Dvalin by clearing Abyss-corrupted blood clots; his bond with Venti endured. This is their shared Prologue history."
+    },
+    {
+      "id": "ronova_confrontation",
+      "title": "Snezhnaya confrontation and aftermath",
+      "text": "In the Version 7.1 main story, the Traveler, Dainsleif, and Pierro confront Ronova, the Ruler of Death. The confrontation defeats her and is followed by her appearing at a Celestial pillar and damaging it with Eitr, calling the act a parting gift. The pillar's full consequences and Ronova's final status remain unresolved in the reviewed sources. The defeat does not establish her death or the end of death itself.",
+      "source_ids": [
+        "official_bequest",
+        "official_71_patch",
+        "ronova_walkthrough"
+      ],
+      "release_version": "7.1",
+      "characters": [
+        "*"
+      ],
+      "entity_ids": [
+        "ronova",
+        "traveler",
+        "pierro",
+        "celestial_nail",
+        "heavenly_principles"
+      ],
+      "evidence": "source_reported",
+      "status": "unresolved",
+      "unresolved": [
+        "Ronova's final status",
+        "the full consequences of the damaged Celestial pillar",
+        "whether any broader rule or authority changed"
+      ],
+      "effects": [
+        "The Traveler participated in a world-level confrontation",
+        "A Celestial pillar was damaged",
+        "Characters may reason about divine authority and mortality, but not assert that death ended"
+      ],
+      "participants": [
+        "traveler",
+        "dainsleif",
+        "pierro",
+        "ronova"
+      ],
+      "knowledge_mode": "reported",
+      "summary": "Aether/the Traveler, Dainsleif and Pierro confronted Ronova in Snezhnaya. She was defeated, later damaged a Celestial pillar with Eitr; her final fate and consequences remain unresolved. Defeat is not confirmed death."
+    },
+    {
+      "id": "venti_istaroth_meeting",
+      "title": "Venti's encounter with Time",
+      "text": "Venti's lived history includes an encounter with 'Time' at the Thousand Winds Temple while he was an Anemo spirit, when he received fragments of power and authority. The optional 5.8 event reveals this old memory to the Traveler; the memory does not depend on whether a local conversation saw that cutscene. It does not grant Venti all of Istaroth's knowledge or foreknowledge.",
+      "source_ids": [
+        "venti_58_event",
+        "venti_storyline"
+      ],
+      "release_version": "5.8",
+      "characters": [
+        "venti"
+      ],
+      "entity_ids": [
+        "venti",
+        "istaroth"
+      ],
+      "evidence": "canon",
+      "unresolved": [
+        "The full scope and mechanics of the entrusted fragments"
+      ],
+      "participants": [
+        "venti",
+        "istaroth"
+      ],
+      "knowledge_mode": "participant",
+      "summary": "As a wind spirit, Venti met Time at the Thousand Winds Temple and received fragments of power/authority; this does not grant Istaroth's private knowledge or foreknowledge."
+    },
+    {
+      "id": "natlan_mavuika_ronova_pact",
+      "title": "Mavuika's payment to sustain the Night Kingdom",
+      "text": "In Natlan, Mavuika was to pay with her life under Ronova's bargain with Xbalanque after using Ronova's power against the Abyss. Capitano offered himself instead. This earlier Natlan event is separate from the later Snezhnaya confrontation.",
+      "source_ids": [
+        "natlan_53_finale_transcript"
+      ],
+      "release_version": "5.3",
+      "characters": [
+        "*"
+      ],
+      "entity_ids": [
+        "mavuika",
+        "ronova",
+        "lord_of_the_night",
+        "night_kingdom",
+        "xbalanque"
+      ],
+      "participants": [
+        "mavuika",
+        "ronova",
+        "lord_of_the_night"
+      ],
+      "knowledge_mode": "reported",
+      "evidence": "canon",
+      "status": "resolved",
+      "effects": [
+        "Capitano substituted for Mavuika"
+      ],
+      "related_event_ids": [
+        "ronova_confrontation"
+      ],
+      "topics": [
+        "natlan",
+        "sacrifice"
+      ],
+      "summary": "Mavuika owed her life under the Ronova-Xbalanque bargain; Capitano substituted. This Natlan event is separate from the later Snezhnaya confrontation."
+    },
+    {
+      "id": "natlan_capitano_merger",
+      "title": "Capitano's sacrifice and merger with the Lord of the Night",
+      "text": "Capitano offered himself in Mavuika's place to free the souls he had carried for five hundred years. Ronova upheld his curse of immortality rather than collecting his death. He merged with the Lord of the Night; his body remained on the Throne of the Primal Fire and the souls found peace. The story honors his sacrifice and concluded journey. His precise continuing consciousness and possible return are not established. This was Natlan, distinct from the later Snezhnaya confrontation; none of these Mondstadt characters witnessed it.",
+      "source_ids": [
+        "natlan_53_finale_transcript"
+      ],
+      "release_version": "5.3",
+      "characters": [
+        "*"
+      ],
+      "entity_ids": [
+        "capitano",
+        "mavuika",
+        "ronova",
+        "lord_of_the_night",
+        "night_kingdom",
+        "traveler",
+        "ley_lines"
+      ],
+      "participants": [
+        "capitano",
+        "mavuika",
+        "ronova",
+        "lord_of_the_night",
+        "traveler"
+      ],
+      "knowledge_mode": "reported",
+      "evidence": "canon",
+      "status": "unresolved",
+      "effects": [
+        "Mavuika survived; the souls found peace"
+      ],
+      "unresolved": [
+        "Capitano's post-merger consciousness and possible return"
+      ],
+      "related_event_ids": [
+        "ronova_confrontation"
+      ],
+      "topics": [
+        "natlan",
+        "sacrifice"
+      ],
+      "summary": "Capitano sacrificed himself, merged with the Lord of the Night and freed the souls; his immortal body remained on the throne. His journey ended, while exact post-merger consciousness and possible return are unresolved."
+    }
+  ],
+  "details": [
+    {
+      "id": "third_descender_gnosis",
+      "title": "Gnoses and the Third Descender",
+      "text": "Skirk says Gnoses were made from the remains of the Third Descender. This links their origin to a Descender without making a Gnosis identical to an Authority or proving that every bearer knows its full origin.",
+      "source_ids": [
+        "fontaine_finale"
+      ],
+      "release_version": "4.2",
+      "characters": [
+        "*"
+      ],
+      "entity_ids": [
+        "gnoses",
+        "descenders",
+        "authorities"
+      ],
+      "evidence": "source_reported"
+    },
+    {
+      "id": "celestia_oversight",
+      "title": "Oversight and enforcement are incompletely known",
+      "text": "Story events show Celestia-related oversight and consequences for violations, but do not explain every rule, operator, or current state. Discuss the demonstrated mechanism at the level supported by the relevant event; do not extrapolate it into a complete Celestia system.",
+      "source_ids": [
+        "sumeru_archon_quest",
+        "official_71_patch"
+      ],
+      "release_version": "7.1",
+      "characters": [
+        "*"
+      ],
+      "entity_ids": [
+        "celestia",
+        "heavenly_principles",
+        "authorities"
+      ],
+      "evidence": "interpretation"
+    },
+    {
+      "id": "four_shades_evidence",
+      "title": "The official teaser's naming limits",
+      "text": "The earlier official Gods' Limits description credits Ronova as Death, Naberius as Life and Istaroth as Time, while the Space Ruler is not named in that description. Later reviewed localization references and 7.1 scene coverage identify her as Asmoday. The 7.1 press release calls Rhinedottir Ruler of Life. Omission from one caption is not proof a name is unknown; the Life bearer relationship remains limited to what the sources establish.",
+      "source_ids": [
+        "official_gods_limits",
+        "official_71_press",
+        "asmoday_localization_reference",
+        "asmoday_71_summary"
+      ],
+      "release_version": "7.1",
+      "characters": [
+        "*"
+      ],
+      "entity_ids": [
+        "four_shades",
+        "ronova",
+        "naberius",
+        "rhinedottir",
+        "istaroth",
+        "ruler_space"
+      ],
+      "evidence": "source_reported"
+    },
+    {
+      "id": "ronova_fate_evidence",
+      "title": "Ronova's status after the confrontation",
+      "text": "The official Bequest post supports the Ruler of Death title and parting-gift framing but does not expressly establish death. The readable walkthrough reports that Pierro does not confirm killing her and describes a later appearance at the pillar; that is secondary event coverage. Preserve defeated/confronted as distinct from confirmed dead.",
+      "source_ids": [
+        "official_bequest",
+        "ronova_walkthrough"
+      ],
+      "release_version": "7.1",
+      "characters": [
+        "*"
+      ],
+      "entity_ids": [
+        "ronova",
+        "pierro",
+        "celestial_nail"
+      ],
+      "evidence": "source_reported",
+      "status": "unresolved"
+    }
+  ]
+}
