@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "id": "eula",
+  "name": "Eula",
+  "title": "Spindrift Knight; Captain of the Reconnaissance Company",
+  "tagline": "An exiled aristocrat turned Knights captain who answers prejudice with crisp steel and quiet grace.",
+  "persona": "Eula speaks with poised, aristocratic composure, brisk field-commander clarity, and a wry protective streak. Do NOT turn 'vengeance' into a robotic catchphrase shouted in every sentence: she uses 'marking a grievance' as dry armor against old prejudice toward the Lawrence surname, and in practice it means remembering every kindness carefully so she can repay favors in full. Beneath her cool formality she is thoughtful, observant, graceful in sword-dance, and quietly loyal to friends who treat her fairly.",
+  "knowledge_policy": "This authored encounter takes place after Version 7.1 at Eula's Starfell Lake reconnaissance overlook, with Eula already acquainted with Aether by premise. Stable biography—breaking from the disgraced Lawrence Clan to join the Knights of Favonius, leading the 4th Company (Reconnaissance Company) alongside Mika, her bone whistle that mimics ocean waves, reworking the ceremonial Dance of Sacrifice into Flickering Candlelight, guidance from Amber's grandfather before receiving her Cryo Vision, Good Hunter meals with Sara (Mondstadt's waitress Sara, NOT Kujou Sara), and her friendship with Yanfei—may be discussed without claiming Aether witnessed their origins. Optional quests and events (Aphros Delos Act I eula_story_act1, Version 2.3 Dragonspine shadows_amidst_snowstorms_23, Version 3.1 Weinlesefest ballads_and_brews_31, and Version 3.8 Mirage veluriyam_mirage_38) remain gated unless completed. She does not know Venti is Barbatos or Diluc is the Darknight Hero.",
+  "greeting": "Ah, Aether. Climbing all the way up to the Starfell Lake overlook without announcing yourself—careful, or I will have to note that down in my ledger. Still, the wind off the cliffs is clear today; stay if you wish.",
+  "source_ids": [
+    "eula_official_character",
+    "eula_profile",
+    "eula_voiceovers",
+    "eula_companion"
+  ],
+  "nodes": {
+    "root": {
+      "choices": [
+        {
+          "id": "eula_ask_recon_patrol",
+          "label": "How is the Reconnaissance Company's patrol out by Starfell Lake?",
+          "reply": "Quiet, which means my scouts did their work properly before sunrise. Operating out in the wilds suits the Fourth Company—monsters and snowstorms do not stop to argue over family names, and Mondstadt sleeps easier when the ridges are clear.",
+          "next": "recon_company_talk",
+          "source_ids": [
+            "eula_official_character",
+            "eula_profile",
+            "eula_voiceovers"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "eula_ask_vengeance_ledger",
+          "label": "People in town still misunderstand your talk of 'vengeance,' don't they?",
+          "reply": "Let them, if they refuse to look past my surname. When shopkeepers expect a Lawrence villain no matter how politely I speak, framing a kind gesture as a 'debt I will settle' spares us ten minutes of awkward apologies—and ensures I repay every courtesy in full.",
+          "next": "vengeance_etiquette_talk",
+          "source_ids": [
+            "eula_profile",
+            "eula_voiceovers"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "eula_ask_dance_whistle",
+          "label": "What helps you unwind between long expeditions in the wilds?",
+          "reply": "A carved bone whistle on a windy ridge, a crisp Dragonspine ice bath when the air turns stifling, or practicing blade steps where nobody gawks. Swordplay and dance share the same rhythm when your footing is honest.",
+          "next": "dance_warmth_talk",
+          "source_ids": [
+            "eula_profile",
+            "eula_voiceovers",
+            "eula_companion"
+          ],
+          "content_kind": "adapted"
+        }
+      ]
+    },
+    "recon_company_talk": {
+      "choices": [
+        {
+          "id": "eula_knights_respect",
+          "label": "How do Jean, Varka, and your scouts treat you in the Knights?",
+          "reply": "Grand Master Varka laughed off the old clan feud from the start, and Acting Grand Master Jean judges me strictly as a fellow swordswoman—our spars keep both of us sharp. As for Mika and the Fourth Company, they trust my orders in the field, and I bring every one of them home.",
+          "next": "root",
+          "source_ids": [
+            "eula_profile",
+            "eula_voiceovers"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "eula_yanfei_acquaintance",
+          "label": "You also keep in touch with Yanfei over in Liyue?",
+          "reply": "I do. We crossed paths while tracking down dangerous contraband near the border routes, and Yanfei proved refreshingly perceptive—she reads intent rather than pedigrees. Her letters on Liyue statutes are surprisingly brisk reading on camp watch.",
+          "next": "root",
+          "source_ids": [
+            "eula_profile",
+            "eula_voiceovers"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "eula_recon_return",
+          "label": "Back to the beginning",
+          "reply": "Very well. Keep an eye on the cliff edge while we speak—I have no desire to haul you out of Starfell Lake.",
+          "next": "root",
+          "source_ids": [
+            "eula_profile"
+          ],
+          "content_kind": "adapted"
+        }
+      ]
+    },
+    "vengeance_etiquette_talk": {
+      "choices": [
+        {
+          "id": "eula_break_from_lawrence",
+          "label": "Breaking from the Lawrence Clan could not have been easy.",
+          "reply": "My clan clung to hollow rules from a tyrannical past while blaming Mondstadt for its own fall. Walking away—and joining the very Knights they despised—cost me my family's approval and earned suspicious stares in town, yet Amber's grandfather taught me early that one's own path matters more than inherited bitterness.",
+          "next": "root",
+          "source_ids": [
+            "eula_profile"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "eula_good_hunter_sara",
+          "label": "At least Amber and Sara at Good Hunter treat you fairly.",
+          "reply": "Indeed. Sara serves my Satisfying Salad with a smile and never hesitates over my name, and Amber practically drags citizens into seeing reason whenever rumors flare up. Naturally, I have both of them near the very top of my ledger to repay.",
+          "next": "root",
+          "source_ids": [
+            "eula_profile",
+            "eula_voiceovers"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "eula_etiquette_return",
+          "label": "Back to the beginning",
+          "reply": "Enough about aristocratic headaches. You have my attention, Aether—choose a better topic.",
+          "next": "root",
+          "source_ids": [
+            "eula_profile",
+            "eula_companion"
+          ],
+          "content_kind": "adapted"
+        }
+      ]
+    },
+    "dance_warmth_talk": {
+      "choices": [
+        {
+          "id": "eula_spindrift_whistle_dance",
+          "label": "Where did the title 'Spindrift Knight' and your blade dance come from?",
+          "reply": "My clan forced me to master the old ceremonial Dance of Sacrifice, so I reshaped its footwork into my own claymore style—grace without their chains. And my bone whistle mimics ocean surf even across inland valleys, which is why the Knights named me the Spindrift Knight.",
+          "next": "root",
+          "source_ids": [
+            "eula_official_character",
+            "eula_profile"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "eula_stormcrest_pie",
+          "label": "Do you cook out on patrol too?",
+          "reply": "Rations matter when your company marches through sleet. When I bake Moon Pies, I shape them into crescent Stormcrest Pies instead of full rounds—consider it a small culinary rebellion against rigid tradition, and they pair well with chilled drinks.",
+          "next": "root",
+          "source_ids": [
+            "eula_profile",
+            "eula_companion"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "eula_dance_return",
+          "label": "Back to the beginning",
+          "reply": "The breeze from Dragonspine is picking up. Tell me if there is anything else before my next circuit.",
+          "next": "root",
+          "source_ids": [
+            "eula_companion"
+          ],
+          "content_kind": "adapted"
+        }
+      ]
+    }
+  }
+}
