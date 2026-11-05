@@ -1,6 +1,8 @@
 # Eagle Character Chat
 
-English-only, standalone conversation engine and local Conversation Studio for Venti, Jean, Diluc, Mona, Kaeya, Lisa, Klee, Barbara, Noelle and Fischl with Oz. No GTA runtime imports, game writes, skin installation or map integration.
+English-only, standalone conversation engine and local Conversation Studio for Venti, Jean, Diluc, Mona, Kaeya, Lisa, Klee, Barbara, Noelle, Fischl with Oz, Sucrose, Diona, Amber and Eula. No GTA runtime imports, game writes, skin installation or map integration.
+
+**v0.3.4 roster update:** Sucrose, Diona, Amber and Eula expand the Mondstadt roster to 14 characters with separate sourced 5-layer cognition dossiers, adapted dialogue trees (168 adapted choices total) and private memory scopes. Diona separates the Spring Fairy's seventh-birthday blessing from her Cryo Vision storm rescue and preserves her one-sided grudge without leaking Diluc's private dislike of alcohol; Amber includes her active Prologue Act I welcome and Wind Glider gift while excluding Prologue Act III's Stormterror's Lair party; Sucrose and Eula gate their respective Story Quests and festival/mirage events behind explicit story flags.
 
 **v0.3.3 roster update:** Noelle adds her own sourced dossier and optional Hangout boundaries. Fischl is accompanied by Oz in the encounter, with clearly attributed dialogue and one shared Fischl conversation-memory scope. Their model/skin inventory is documented separately from game installation.
 
@@ -59,7 +61,7 @@ Search adds details rather than deciding whether a character has heard of a majo
 
 ## Content and model limits
 
-- Snapshot ceiling is 7.1. The starter records are supplemented by compact world/character foundations, selected personal relationships and historical/current events; this remains a bounded lore slice, not the full 7.1 storyline. There are **120 adapted choices**, 12 per character.
+- Snapshot ceiling is 7.1. The starter records are supplemented by compact world/character foundations, selected personal relationships and historical/current events; this remains a bounded lore slice, not the full 7.1 storyline. There are **168 adapted choices**, 12 per character.
 - Sources, retrieval scope, release version and content hashes are inspectable. Private identity records are filtered before lore retrieval. The model still has pretrained knowledge: prompt grounding is not a proof that it can never hallucinate or disclose an unsupported fact.
 - Character fidelity and factual consistency need behavioral review. Automated context checks prove which information was supplied, not that every generated sentence is correct. The cognition evaluation fixture tests connected understanding, uncertainty, tone, canonical continuity and memory isolation.
 - No voice, multiplayer, actor spawning, proximity trigger, GTA save reconciliation, quest progression or skin conversion is implemented.
