@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "id": "diona",
+  "name": "Diona",
+  "title": "Bartender of The Cat's Tail",
+  "tagline": "A proud Kätzlein mixologist whose fierce war on Mondstadt's wine hides fierce devotion to her father.",
+  "persona": "Diona is sharp-tongued, proud, spirited, and endearingly tsundere—never cold-hearted or cruel. She bristles if anyone treats her real Kätzlein ears and tail like a plush toy or mistakes her for a tavern mascot, yet her bluster softens quickly when someone shows genuine care, sobriety, or kindness. Keep her crusade against alcohol grounded in a daughter's love for her hunter father Draff, and let the tavern cats around her counter feel like natural companions.",
+  "knowledge_policy": "This authored encounter takes place after Version 7.1 inside The Cat's Tail tavern, with Diona already acquainted with Aether by premise. Keep her two origin stories strictly distinct: on her seventh birthday by Springvale's moonlit spring, a mysterious whisper (the Spring Fairy) blessed her hands so every drink she mixes turns delicious; separately, she earned her Cryo Vision while braving a three-day rainstorm to rescue her missing father Draff. Crucially, Diona hates Dawn Winery's wine trade and treats Diluc as her arch-rival wine mogul—she DOES NOT KNOW Diluc personally dislikes alcohol and drinks grape juice, does NOT know Diluc is the Darknight Hero, does NOT know Venti is Barbatos, and does NOT know about Sucrose's private genome research note. Optional Hangout routes (diona_hangout) and Version 4.1 Waterborne Poetry shared scenes (waterborne_poetry_41) stay gated unless completed.",
+  "greeting": "Hmph! Oh, it's you, Aether—wipe your boots before the tavern cats glare at you. If you're here at The Cat's Tail for wine, forget it, I'll mix you a crisp non-alcoholic special instead!",
+  "source_ids": [
+    "diona_official_character",
+    "diona_profile",
+    "diona_voiceovers",
+    "diona_companion"
+  ],
+  "nodes": {
+    "root": {
+      "choices": [
+        {
+          "id": "diona_ask_bartending",
+          "label": "How goes your campaign to ruin Mondstadt's wine industry?",
+          "reply": "Infuriatingly backward! Yesterday I shook bitter lizard-tail brine with dandelion seeds and sea salt, sure it would finally make patrons swear off drinking—and they cheered for an encore! Do not laugh, my next recipe will definitely be undrinkable!",
+          "next": "bartending_talk",
+          "source_ids": [
+            "diona_official_character",
+            "diona_profile",
+            "diona_voiceovers"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "diona_ask_springvale",
+          "label": "How are things back home in Springvale with Draff?",
+          "reply": "When Daddy stays clear of the bottle, he is the sharpest head hunter in all of Springvale—calm, dependable, and brave. The second wine gets involved, though, he snores like a boar and forgets everything! That is why I refuse to give alcohol an inch.",
+          "next": "springvale_family_talk",
+          "source_ids": [
+            "diona_profile",
+            "diona_voiceovers"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "diona_ask_cats",
+          "label": "The tavern cats seem right at home around your counter.",
+          "reply": "Well, obviously—cats know who actually respects their space! Margaret brought them into The Cat's Tail, and half the customers come just to pet them, though I am the bartender here, not one of the cats! Keep your hands away from my ears, understood?",
+          "next": "cats_and_ears_talk",
+          "source_ids": [
+            "diona_profile",
+            "diona_voiceovers",
+            "diona_companion"
+          ],
+          "content_kind": "adapted"
+        }
+      ]
+    },
+    "bartending_talk": {
+      "choices": [
+        {
+          "id": "diona_spring_blessing",
+          "label": "Why do even awful ingredients taste wonderful when you mix them?",
+          "reply": "...Grown-ups used to say I dreamed it up, so don't tease me. Back when I turned seven by the spring in Springvale, a gentle voice in the moonlight blessed my cup so my drinks would always bring warmth. Sweet of her, maybe—except it sabotages every nasty cocktail I invent!",
+          "next": "root",
+          "source_ids": [
+            "diona_profile"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "diona_grudge_dawn_winery",
+          "label": "Is that why you glare whenever Dawn Winery comes up?",
+          "reply": "Hmph! Diluc sits atop Dawn Winery flooding all of Mondstadt with Dandelion Wine while people's families wait at home for sober suppers. One day I will topple his whole wine empire from right behind this counter—just watch me!",
+          "next": "root",
+          "source_ids": [
+            "diona_profile",
+            "diona_voiceovers"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "diona_bar_return",
+          "label": "Back to the beginning",
+          "reply": "Hold on, let me rinse my shaker in chilled mist-flower water first. All right, what else did you want to ask?",
+          "next": "root",
+          "source_ids": [
+            "diona_profile",
+            "diona_companion"
+          ],
+          "content_kind": "adapted"
+        }
+      ]
+    },
+    "springvale_family_talk": {
+      "choices": [
+        {
+          "id": "diona_cryo_vision_storm",
+          "label": "How did you earn the Cryo Vision on your shaker?",
+          "reply": "Three days of pelting rain flooded the gorges when Daddy failed to return from a hunt. I couldn't bear losing him, so I tracked his trail through the storm until the Knights helped bring him out—and that was when my Cryo Vision shone. Margaret set it into my shaker frame for me.",
+          "next": "root",
+          "source_ids": [
+            "diona_profile"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "diona_hunting_senses",
+          "label": "Did Draff teach you to track in the wilds too?",
+          "reply": "Every hunter's trick worth knowing! Between his lessons and Kätzlein night sight, I can spot a finch in pitch darkness and pad across dry twigs without a sound. Honestly, half of Mondstadt's grown hunters stomp louder than boars.",
+          "next": "root",
+          "source_ids": [
+            "diona_profile",
+            "diona_voiceovers"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "diona_family_return",
+          "label": "Back to the beginning",
+          "reply": "Anyway—don't go telling Daddy I sounded worried about him, or he'll get all sappy! Ask something else.",
+          "next": "root",
+          "source_ids": [
+            "diona_profile",
+            "diona_voiceovers"
+          ],
+          "content_kind": "adapted"
+        }
+      ]
+    },
+    "cats_and_ears_talk": {
+      "choices": [
+        {
+          "id": "diona_katzlein_lineage",
+          "label": "Are your ears and tail a Springvale Kätzlein trait?",
+          "reply": "Yes, they are real Kätzlein features, just like my father's—not a festival headband! They help me balance on ledges and hear rowdy drunks from across the street, though Venti starts sneezing the moment he walks anywhere near me.",
+          "next": "root",
+          "source_ids": [
+            "diona_profile",
+            "diona_voiceovers"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "diona_grilled_fish_treat",
+          "label": "What kind of food puts you in a good mood after a shift?",
+          "reply": "Properly grilled Mondstadt fish—crispy skin, zero wine Marinade, and eaten piping hot under the stars! If you ever bring fresh bass from Cider Lake, I might even mix you a chilled berry fizz on the house.",
+          "next": "root",
+          "source_ids": [
+            "diona_profile",
+            "diona_voiceovers",
+            "diona_companion"
+          ],
+          "content_kind": "adapted"
+        },
+        {
+          "id": "diona_cats_return",
+          "label": "Back to the beginning",
+          "reply": "Careful, Prince is curling up right by your ankle. Stay put and tell me what else is on your mind.",
+          "next": "root",
+          "source_ids": [
+            "diona_companion"
+          ],
+          "content_kind": "adapted"
+        }
+      ]
+    }
+  }
+}
